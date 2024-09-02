@@ -825,6 +825,16 @@ model and provide the optimal solution for up to ten instances not proved in the
   </p>
 </details>
 
+<details>
+  <summary>
+    <b>Learning Gradient Fields for Scalable and Generalizable Irregular Packing</b>
+    <a href="https://dl.acm.org/doi/abs/10.1145/3610548.3618235"> Xue, et. al - (2023)  </a>
+  </summary>
+  <p align=justify>
+    The packing problem, also known as cutting or nesting, has diverse applications in logistics, manufacturing, layout design, and atlas generation. It involves arranging irregularly shaped pieces to minimize waste while avoiding overlap. Recent advances in machine learning, particularly reinforcement learning, have shown promise in addressing the packing problem. In this work, we delve deeper into a novel machine learning-based approach that formulates the packing problem as conditional generative modeling. To tackle the challenges of irregular packing, including object validity constraints and collision avoidance, our method employs the score-based diffusion model to learn a series of gradient fields. These gradient fields encode the correlations between constraint satisfaction and the spatial relationships of polygons, learned from teacher examples. During the testing phase, packing solutions are generated using a coarse-to-fine refinement mechanism guided by the learned gradient fields. To enhance packing feasibility and optimality, we introduce two key architectural designs: multi-scale feature extraction and coarse-to-fine relation extraction. We conduct experiments on two typical industrial packing domains, considering translations only. Empirically, our approach demonstrates spatial utilization rates comparable to, or even surpassing, those achieved by the teacher algorithm responsible for training data generation. Additionally, it exhibits some level of generalization to shape variations. We are hopeful that this method could pave the way for new possibilities in solving the packing problem.
+  </p>
+</details>
+
 ## Quantum Computing Approaches
 
 <details>
