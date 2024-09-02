@@ -346,6 +346,17 @@ The performance of the CP model for the strip packing problem with the global co
   </p>
 </details>
 
+<details>
+  <summary>
+    <b>An Iterative Compression Method for the Two-Dimensional Irregular Packing Problem With Lead Lines</b> &emsp;
+    <a href="https://ieeexplore.ieee.org/abstract/document/10621026"> Tang et. al. - (2024) </a>
+  </summary>
+  <p align=justify>
+    In industry, cutting various irregular pieces from a large raw material plate of a given size is often necessary to minimize the number of raw material sheets used. This problem is known as the two-dimensional irregular bin packing problem (2DIBPP). An iterative compression algorithm is proposed to address the irregular packing problem in the sheet metal industry, considering lead lines to maximize raw material sheet utilization. Firstly, three methods of lead lines pre-processing are proposed to effectively transform lead lines constraints into non-overlapping constraints between pieces. Secondly, an improved greedy heuristic, incorporating the sticking-edge and insertion-space strategies, is designed to obtain an initial solution for compact packing. Finally, through the iterative compression strategy, the occupied space of the pieces is continuously contracted to further enhance raw material sheet utilization. The efficiency of the proposed algorithms is demonstrated through testing and analysis of real-world instances from industry. The lead lines processing strategy and algorithm presented in this paper effectively resolve the irregular packing problem associated with lead lines, demonstrating their utility in industrial production.
+  </p>
+</details>
+
+
 ## Strip packing
 
 <details>
