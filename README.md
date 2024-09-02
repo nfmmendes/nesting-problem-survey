@@ -59,12 +59,40 @@ researchers in the area to select the most appropriate methodology for their nee
 </details>
 
 ## Nesting problem
+<details>
+  <summary>
+    <b>On genetic algorithms for shoe making nesting – A Taiwan case</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417407005192?via%3Dihub"> Yang, Ling - (2009) </a> 
+  </summary>
+  <p align=justify>
+  This paper proposes a methodology that integrates in-house placement heuristics with genetic algorithms to solve the nesting problems of shoe making. The problems are classified as placing a set of irregular patterns on a regular area and limited to at most two different types of patterns on the area. Because of the intractability of the nesting problem, our objective is to utilize genetic algorithms’ fast convergence and solution quality to improve material utilization and reduce the calculation time of the pattern. Using the real-life data of two international brands of athletic shoes, the empirical results show that our proposed methodology can reduce average material requirements by 2.64% and average nesting time by 69.15% compared to those of current in-house software. The reduction of materials is becoming more important given that the industry is facing continuingly declining profit margins.
+  </p>
+</details>
+<details>
+  <summary>
+    <b>Irregular Packing Using the Line and Arc No-Fit Polygon</b> &emsp;
+    <a href="https://pubsonline.informs.org/doi/abs/10.1287/opre.1090.0770"> Burke et. al. - (2010) </a>
+    
+  </summary>
+  <p align=justify>
+  The no-fit polygon is a geometric construct that can offer faster and more efficient handling of geometry between pairs of shapes than traditional line-by-line intersection. The detection of intersections is a critical operation within the irregular two-dimensional stock-cutting problem (also known as “nesting”), which aims to place shapes onto sheets of material so that the material is utilised as efficiently as possible and the waste (or trim loss) is reduced. The problem forms an important process within many real-world manufacturing industries such as metalworking, automotive production, aerospace, clothing and conservatory manufacture, and others. If manufacturers can reduce their costs by utilising raw materials more effectively, this can directly translate into increased profit margins or greater competitiveness within the marketplace. Moreover, there are significant environmental benefits to be gained. Several methods have been proposed to calculate no-fit polygons, but most, if not all, can only operate on geometry that consists of line segments. This paper extends the orbital sliding method of calculating no-fit polygons to enable it to handle arcs and then shows the resultant no-fit polygons being utilised successfully on the two-dimensional irregular packing problem. As far as the authors are aware, this is the first time that a no-fit polygon algorithm has been able to handle arcs robustly without decomposing to their line approximations. The modification of the authors' previously published packing algorithm to utilise the proposed no-fit polygon approach yields solutions of excellent quality (including several best-known) on well-established literature benchmark problems after only a few minutes. The authors believe that the success of the packing strategy and the line and arc no-fit polygon algorithm make this approach a serious candidate for use in real-world production environments.
+    </p>
+</details>
 
-[Yang, Ling - (2009)](https://www.sciencedirect.com/science/article/abs/pii/S0957417407005192?via%3Dihub)
+<details>
+  <summary>
+    <b>New constructive algorithms for leather nesting in the automotive industry</b>
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S030505481100253X"> Alves et. al. - (2012)</a>
+  </summary>
+  <p align=justify>
+    In this paper, we address one of the hardest two-dimensional cutting stock problems that can be found in industry. The problem is called the Leather Nesting Problem, and it consists in finding the best layouts for a set of irregular shapes within large natural leather hides with highly irregular contours, and which may have holes and quality zones. Here, we focus on a real case from the automotive industry, and in particular on the production of car seats. In this case, the irregular shapes that have to be cut from the hides are pieces of the car seats.
+  </p>
+  <p align=justify>
+The practical relevance of this problem, and the potential value of the savings that good solutions may generate, contrasts with the very small number of contributions that have been reported in the literature. In this paper, we aim to contribute to the efficient resolution of this problem by exploring in depth many new different constructive procedures. Our approaches rely on the computation of no-fit polygons, and try to use the information provided by these polygons as much as possible. Different strategies for sorting, selecting and placing the pieces, and for evaluating the placement of these pieces are proposed and discussed. We also report on an extensive set of computational experiments using real instances. To evaluate our approaches, we applied the real criteria used by companies operating in this sector. These experiments show that our approaches can generate very high quality layouts within the same time limits as those needed by human operators.
+  </p>
+</details>
 
-[Burke et. al. - (2010)](https://pubsonline.informs.org/doi/abs/10.1287/opre.1090.0770)
-
-[Alves et. al. - (2012)](https://www.sciencedirect.com/science/article/abs/pii/S030505481100253X)
+[]()
 
 [Alves, et. al - (2012)](https://www.hindawi.com/journals/mpe/2012/254346/)
 
