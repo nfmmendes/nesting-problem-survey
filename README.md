@@ -424,16 +424,47 @@ The performance of the CP model for the strip packing problem with the global co
 
 ## AI Approaches 
 
-[Fang et. al. - (2023)](https://www.mdpi.com/2227-7390/11/2/327)
+<details>
+  <summary>
+    <b>A Hybrid Reinforcement Learning Algorithm for 2D Irregular Packing Problems </b> &emsp;
+    <a href="https://www.mdpi.com/2227-7390/11/2/327"> Fang et. al. - (2023) </a>
+  </summary>
+  <p align=justify>
+    Packing problems, also known as nesting problems or bin packing problems, are classic and popular NP-hard problems with high computational complexity. Inspired by classic reinforcement learning (RL), we established a mathematical model for two-dimensional (2D) irregular-piece packing combined with characteristics of 2D irregular pieces. An RL algorithm based on Monte Carlo learning (MC), Q-learning, and Sarsa-learning is proposed in this paper to solve a 2D irregular-piece packing problem. Additionally, mechanisms of reward–return and strategy-update based on piece packing were designed. Finally, the standard test case of irregular pieces was used for experimental testing to analyze the optimization effect of the algorithm. The experimental results show that the proposed algorithm can successfully realize packing of 2D irregular pieces. A similar or better optimization effect can be obtained compared to some classical heuristic algorithms. The proposed algorithm is an early attempt to use machine learning to solve 2D irregular packing problems. On the one hand, our hybrid RL algorithm can provide a basis for subsequent deep reinforcement learning (DRL) to solve packing problems, which has far-reaching theoretical significance. On the other hand, it has practical significance for improving the utilization rate of raw materials and broadening the application field of machine learning.
+  </p>
+</details>
 
-[Bartmeyer et. al. -(2022)](https://www.sciencedirect.com/science/article/abs/pii/S095741742201363X)
+<details>
+  <summary>
+    <b>An expert system to react to defective areas in nesting problems</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S095741742201363X"> Bartmeyer et. al. -(2022) </a>
+  </summary>
+  <p align=justify>
+    Production plans in the textile industry, and other practical applications, involve cutting irregular pieces from raw materials. Defective areas in the raw material may be detected during the cutting process, requiring an adaptation of the original layout. The response time to provide an alternative layout is short, precluding the use of exact methods to overcome defective areas. The main contribution of this paper is to provide an expert system to quickly obtain an alternative layout, overcoming defective areas in the object. The expert system comprises a greedy heuristic based on the allocation sequence suggested by reinforcement learning. Computational experiments have two main objectives. The first one is to validate reinforcement learning as a suitable strategy to tackle nesting problems. The results attest to the ability of the strategy to achieve the best results in the literature. The second objective is to show the ability of the expert system to provide alternative layouts within a short response time. The quality of the solutions obtained by the expert system evidence the strength of the proposed system in overcoming defective areas.
+  </p>
+</details>
 
-[Zhao, Hao, Fang - (2021)](https://iopscience.iop.org/article/10.1088/1742-6596/2181/1/012002/pdf) 
-* Regular 2D strip packing
+<details>
+  <summary>
+    <b>A reinforcement learning algorithm for the 2D-rectangular strip packing proble</b> &emsp;
+    <a href="https://iopscience.iop.org/article/10.1088/1742-6596/2181/1/012002/pdf"> Zhao, Hao, Fang - (2021) </a>
+  </summary>
+  <p align=justify>
+    Packing problems, also known as nesting problems or bin packing problems, are classic and popular NP-hard problems with high computational complexity. Inspired by classic reinforcement learning (RL), we established a mathematical model for two-dimensional (2D) irregular-piece packing combined with characteristics of 2D irregular pieces. An RL algorithm based on Monte Carlo learning (MC), Q-learning, and Sarsa-learning is proposed in this paper to solve a 2D irregular-piece packing problem. Additionally, mechanisms of reward–return and strategy-update based on piece packing were designed. Finally, the standard test case of irregular pieces was used for experimental testing to analyze the optimization effect of the algorithm. The experimental results show that the proposed algorithm can successfully realize packing of 2D irregular pieces. A similar or better optimization effect can be obtained compared to some classical heuristic algorithms. The proposed algorithm is an early attempt to use machine learning to solve 2D irregular packing problems. On the one hand, our hybrid RL algorithm can provide a basis for subsequent deep reinforcement learning (DRL) to solve packing problems, which has far-reaching theoretical significance. On the other hand, it has practical significance for improving the utilization rate of raw materials and broadening the application field of machine learning.
+  </p>
+</details>
 
 ## Quantum Computing Approaches
 
-[Matt, Roth - (2024)](https://arxiv.org/abs/2402.17542)
+<details>
+  <summary>
+    <b>A heuristic for solving the irregular strip packing problem with quantum optimization</b> &emsp;
+    <a href="https://arxiv.org/abs/2402.17542"> Matt, Roth - (2024) </a>
+  </summary>
+  <p align=justify>
+    We introduce a novel quantum computing heuristic for solving the irregular strip packing problem, a significant challenge in optimizing material usage across various industries. This problem involves arranging a set of irregular polygonal pieces within a fixed-height, rectangular container to minimize waste. Traditional methods heavily rely on manual optimization by specialists, highlighting the complexity and computational difficulty of achieving quasi-optimal layouts. The proposed algorithm employs a quantum-inspired heuristic that decomposes the strip packing problem into two sub-problems: ordering pieces via the traveling salesman problem and spatially arranging them in a rectangle packing problem. This strategy facilitates a novel application of quantum computing to industrial optimization, aiming to minimize waste and enhance material efficiency. Experimental evaluations using both classical and quantum computational methods demonstrate the algorithm's efficacy. We evaluate the algorithm's performance using the quantum approximate optimization algorithm and the quantum alternating operator ansatz, through simulations and real quantum computers, and compare it to classical approaches. 
+  </p>
+</details>
 
 ## Thesis
 
