@@ -1,5 +1,5 @@
 # Nesting Problem Short Survey
-Just some articles that deal with nesting problem (Irregular Knapsack Problem)
+Just some articles that deal with nesting problem (Irregular Knapsack Problem) and similar problems.
 
 <details>  
   <summary>
@@ -16,6 +16,23 @@ We test our algorithms on three sets of test problem instances. In order to vali
 </p>
 </details>
 
+## Topics
+
+<ul>
+<li><a href="https://github.com/nfmmendes/nesting-problem-survey#scientific-tutorial">Scientific Tutorial </a> </li>
+<li><a href="https://github.com/nfmmendes/nesting-problem-survey#surveys">Surveys </a></li>
+<li><a href="https://github.com/nfmmendes/nesting-problem-survey#nesting-problem"> Nesting problems </a></li>
+<li><a href="https://github.com/nfmmendes/nesting-problem-survey#strip-packing"> Strip packing </a></li>
+<li><a href="https://github.com/nfmmendes/nesting-problem-survey#irregular-shapes-clustering"> Irregular shapes clustering </a></li>
+<li><a href="https://github.com/nfmmendes/nesting-problem-survey#irregular-2d-bin-packing"> Irregular 2d bin packing </a></li>
+<li><a href="https://github.com/nfmmendes/nesting-problem-survey#irregular-cutting-stock"> Irregular cutting stock </a></li>
+<li><a href="https://github.com/nfmmendes/nesting-problem-survey#irregular-knapsack-problem"> Irregular knapsack problem </a> </li>
+<li><a href="https://github.com/nfmmendes/nesting-problem-survey#irregular-3d-packing-problem"> Irregular 3d packing problem </a></li>
+<li><a href="https://github.com/nfmmendes/nesting-problem-survey#ai-approaches"> AI approaches </a></li>
+<li><a href="https://github.com/nfmmendes/nesting-problem-survey#quantum-computing-approaches"> Quantum computing approaches </a></li>
+<li><a href="https://github.com/nfmmendes/nesting-problem-survey#thesis"> Thesis </a></li>
+<li><a href="https://github.com/nfmmendes/nesting-problem-survey#auxiliar-algorithms"> Auxiliar algorithms </a></li>
+</ul>
 
 ## Scientific Tutorial 
 
