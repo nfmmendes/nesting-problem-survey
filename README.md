@@ -81,7 +81,7 @@ researchers in the area to select the most appropriate methodology for their nee
 
 <details>
   <summary>
-    <b>New constructive algorithms for leather nesting in the automotive industry</b>
+    <b>New constructive algorithms for leather nesting in the automotive industry</b> &emsp;
     <a href="https://www.sciencedirect.com/science/article/abs/pii/S030505481100253X"> Alves et. al. - (2012)</a>
   </summary>
   <p align=justify>
@@ -92,16 +92,48 @@ The practical relevance of this problem, and the potential value of the savings 
   </p>
 </details>
 
-[]()
+<details>
+  <summary>
+    <b> A Variable Neighborhood Search Algorithm for the Leather Nesting Problem </b> &emsp;
+    <a href="https://www.hindawi.com/journals/mpe/2012/254346/"> Alves, et. al - (2012)</a>
+  </summary>
+  <p align=justify>
+    The leather nesting problem is a cutting and packing optimization problem that consists in finding the best layout for a set of irregular pieces within a natural leather hide with an irregular surface and contour. In this paper, we address a real application of this problem related to the production of car seats in the automotive industry. The high quality requirements imposed on these products combined with the heterogeneity of the leather hides make the problem very complex to solve in practice. Very few results are reported in the literature for the leather nesting problem. Furthermore, the majority of the approaches impose some additional constraints to the layouts related to the particular application that is considered. In this paper, we describe a variable neighborhood search algorithm for the general leather nesting problem. To evaluate the performance of our approaches, we conducted an extensive set of computational experiments on real instances. The results of these experiments are reported at the end of the paper.
+  </p>
+</details>
 
-[Alves, et. al - (2012)](https://www.hindawi.com/journals/mpe/2012/254346/)
+<details>
+  <summary>
+    <b>A branch & bound algorithm for cutting and packing irregularly shaped pieces</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925527313001692">Alvares-Valdes, Martinez, Tamarit - (2013)</a>
+  </summary>
+  <p align=justify>
+    Cutting and packing problems involving irregular shapes, usually known as Nesting Problems, are common in industries ranging from clothing and footwear to furniture and shipbuilding. Research publications on these problems are relatively scarce compared with other cutting and packing problems with rectangular shapes, and are focused mostly on heuristic approaches. In this paper we make a systematic study of the problem and develop an exact Branch & Bound Algorithm. The initial existing mixed integer formulations are reviewed, tested and used as a starting point to develop a new and more efficient formulation. We also study several branching strategies, lower bounds and procedures for fixing variables, reducing the size of the problem to be solved at each node. An extensive computational study allows us first to determine the best strategies to be used in the Branch & Bound Algorithm and then to explore its performance and limits. The results show that the algorithm is able to solve instances of up to 16 pieces to optimality.
+  </p>
+</details>
 
-[Alvares-Valdes, Martinez, Tamarit - (2013)](https://www.sciencedirect.com/science/article/abs/pii/S0925527313001692)
+<details>
+  <summary>
+    <b> Efficient parts nesting schemes for improving stereolithography utilization </b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0010448512002783">Canellidis, Giannatsis, Dedoussis - (2013)</a>
+  </summary>
+  <p align=justify>
+    In the present paper, the platform layout optimization problem for the simultaneous fabrication of different parts, which is addressed in the batch planning of Stereolithography Additive Manufacturing technology, is studied. The methodology proposed in the paper employs a Genetic Algorithm technique for the 2D nesting of parts on the platform of the stereolithography machine. The build orientation of the parts is assumed fixed and is decided prior to layout optimization, according to part-specific quality and cost requirements. Three placement schemes, appropriately adapted to the problem, are considered for the parts nesting and fabrication layout definition. The algorithms and placement schemes developed are evaluated in several test cases/benchmarks involving parts with both simple and complex geometries. The computational results included in the paper indicate that the proposed methodology can lead to satisfactory layout/packing–nesting arrangements in a time efficient manner, leading, therefore, to substantial improvement of stereolithography machine utilization.
+  </p>
+</details>
 
-[Canellidis, Giannatsis, Dedoussis - (2013)](https://www.sciencedirect.com/science/article/abs/pii/S0010448512002783)
-
-[Elkeran - (2013)](https://www.sciencedirect.com/science/article/abs/pii/S0377221713005080)
-* State-of-the-art heuristic
+<details>
+  <summary>
+    <b> (State-of-the-art heuristic) A new approach for sheet nesting problem using guided cuckoo search and pairwise clustering  </b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221713005080">Elkeran - (2013)</a>
+  </summary>
+  <p align=justify>
+    The nesting problem is commonly encountered in sheet metal, clothing and shoe-making industries. The nesting problem is a combinatorial optimization problem in which a given set of irregular polygons is required to be placed on a rectangular sheet. The objective is to minimize the length of the sheet while having all polygons inside the sheet without overlap. In this study, a methodology that hybridizes cuckoo search and guided local search optimization techniques is proposed.
+  </p>
+  <p align=justify>
+To reduce the complexity of the nesting problem, pairwise clustering is introduced to group congruent polygons together in pairs. Pairwise clustering is done automatically to discover matched features among multiple present polygons. Computational experiments show that the implementation is robust and also reasonably fast. The proposed approach provides significantly better results than the previous state of the art on a wide range of benchmark data instances.
+  </p>
+</details>
 
 [Toledo, et. al. - (2013)](https://www.sciencedirect.com/science/article/abs/pii/S0925527313001722)
 
