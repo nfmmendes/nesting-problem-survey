@@ -436,11 +436,32 @@ The performance of the CP model for the strip packing problem with the global co
 [Matt, Roth - (2024)](https://arxiv.org/abs/2402.17542)
 
 ## Thesis
-[AS Souza - (2016)](https://www.lume.ufrgs.br/handle/10183/142744)
 
-[AM Sykora - (2009)](https://www.uv.es/marsyan/docs/thesis.pdf)
+<details>
+  <summary>
+    <b> Exact and Heuristic Methods
+for Nesting Problems </b> &emsp;
+    <a href="https://www.dei.unipd.it/~fisch/ricop/tesi/tesi_dottorato_Luzzi_2003.pdf"> Fischetti, Luzzi - (2004)  </a>
+  </summary>
+</details>
 
-[I Luzzi - (2003)](https://www.dei.unipd.it/~fisch/ricop/tesi/tesi_dottorato_Luzzi_2003.pdf)
+<details>
+  <summary>
+    <b> Nesting Problems: Exact and Heuristic Algorithms </b> &emsp;
+    <a href="https://www.uv.es/marsyan/docs/thesis.pdf"> Sykora - (2009) </a>
+  </summary>
+</details>
+
+<details>
+  <summary>
+    <b>Algoritmos para o encaixe de moldes com formato irregular em tecidos listrados</b> &emsp;
+    <a href="https://www.lume.ufrgs.br/handle/10183/142744"> Souza (2016)  </a>
+  </summary>
+  <p align=justify>
+    This thesis proposes the solution for the packing problem of patterns on striped fabric in clothing industry. The patterns are pieces with irregular form that should be placed on raw material which is, in this case, the fabric. This fabric is cut after packing. In the specific problem of packing on striped fabric, the position that patterns are put in the fabric should ensure that, after the clothing sewing, the stripes should present continuity. Thus, the theoretical foundation of this project includes subjects about fashion and clothing design, such as types and rapports of striped fabric, and the possibilities of rotation and the correct place to put the patterns on striped fabric. In the theoretical foundation, there are also subjects about research in combinatorial optimization as: characteristics about bi-dimensional packing and cutting problems and algorithms used for several authors to solve the problem. In addition, the Markov Chain Monte Carlo method and the Metropolis-Hastings algorithm are described at end of theoretical foundation. Based on the bibliographic research, two different algorithms for the packing problem with striped fabric are proposed: algorithm with pre-processing step and algorithm of searching the best packing using the Metropolis-Hastings algorithm. Both algorithms are implemented in the Striped Riscare software, which is a continuity of Riscare software for clear fabrics developed in the Masters degree of the author. Both algorithms performances are tested with six literature benchmark problems and a new problem called “male shirt” is proposed here. The benchmark problems of literature were iniatially proposed for clear raw material and the male shirt problem, specifically for striped fabrics. Between the two developed algorithms, the algorithm of searching the best packing has shown better results with better efficiencies of the fabric usage for all the problems tested. When compared to the best results published in the literature for clear raw material, the algorithm of searching the best packing has shown packings with lower efficiencies. However, it showed results higher than recommended for the specific literature of fashion design for patterned fabrics.
+  </p>
+</details>
+
 
 ## Auxiliar algorithms 
 ### Non-fit polygon generation
