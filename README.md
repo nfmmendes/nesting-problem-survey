@@ -710,21 +710,71 @@ model and provide the optimal solution for up to ten instances not proved in the
 
 ## Irregular cutting stock
 
-[Xu (2016)](https://www.hindawi.com/journals/mpe/2016/8703782/)
+<details>
+  <summary>
+    <b>An Efficient Heuristic Approach for Irregular Cutting Stock Problem in Ship Building Industry</b> &emsp;
+    <a href="https://www.hindawi.com/journals/mpe/2016/8703782/"> Xu - (2016)  </a>
+  </summary>
+  <p align=justify>
+    This paper presents an efficient approach for solving a real two-dimensional irregular cutting stock problem in ship building industry. Cutting stock problem is a common cutting and packing problem that arises in a variety of industrial applications. A modification of selection heuristic Exact Fit is applied in our research. In the case referring to irregular shapes, a placement heuristics is more important to construct a complete solution. A placement heuristic relating to bottom-left-fill is presented. We evaluate the proposed approach using generated instance only with convex shapes in literatures and some instances with nonconvex shapes based on real problem from ship building industry. The results demonstrate that the effectiveness and efficiency of the proposed approach are significantly better than some conventional heuristics.
+  </p>
+</details>
 
-[MirHassani, Bashirzadeh - (2015)](https://link.springer.com/article/10.1007/s00170-015-7107-1)
+<details>
+  <summary>
+    <b>A GRASP meta-heuristic for two-dimensional irregular cutting stock problem</b> &emsp;
+    <a href="https://link.springer.com/article/10.1007/s00170-015-7107-1"> MirHassani, Bashirzadeh - (2015)  </a>
+  </summary>
+  <p align=justify>
+    Reducing expensive raw material waste is an important goal in the industry. In this paper, two-dimensional irregular cutting stock problem—a nesting problem that differs from other in their irregular shape of the pieces—with demand is studied, in which the required pieces has to be produced from large rectangular sheet minimizing material waste. Structure of this problem made it intractable for practical applications such that exact algorithms are not able to solve it in a reasonable time. Greedy randomized adaptive search procedure (GRASP) meta-heuristic algorithm is adapted to tackle the problem by providing high-quality solution in an appropriate time. The algorithm does not depend on the shape (convexity and regularity) of pieces and is able to deliver an optimum solution for instances up to 30 pieces of 7 different types. In addition, computational results are provided for different test problems from the related literature.
+  </p>
+</details>
 
 ## Irregular Knapsack Problem
 
-[Queiroz, Andretta, (2020)](https://www.sciencedirect.com/science/article/abs/pii/S1568494620304245)
 
-[Del Valle, et. al. (2012)](https://www.sciencedirect.com/science/article/abs/pii/S0957417412007233)
+<details>
+  <summary>
+    <b>Two effective methods for the irregular knapsack problem</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S1568494620304245"> Queiroz, Andretta, (2020)  </a>
+  </summary>
+  <p align=justify>
+    Two methods are developed for a two-dimensional cutting problem with irregular shaped items. The concepts of inner-fit raster and no-fit raster are used to search for a feasible positioning of items on a rectangular container. The first method is a Biased Random Key Genetic Algorithm, which is a population method, while the other is a Variable Neighborhood Search, which is a single trajectory method. In the proposed methods, a solution is represented by a vector of items, and the positioning of items is achieved with three rules inspired by the bottom-left strategy. When positioning items, feasible positions can be skipped as a strategy to diversify the search and escape from local optima solutions. Numerical experiments performed on literature instances show that the methods are better than the current state-of-the-art method since they obtained equal or better solutions for all the instances. On average, the occupied area increased 6.44%, and the known optimal solution was obtained for 60% of the instances. The population-based method performed better overall, obtaining solutions with better-occupied areas.
+  </p>
+</details>
 
-[Luo, Rao - (2023)](https://www.sciencedirect.com/science/article/abs/pii/S0957417422024101)
+<details>
+  <summary>
+    <b>Heuristics for two-dimensional knapsack and cutting stock problems with items of irregular shape</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417412007233">  Del Valle, et. al. (2012) </a>
+  </summary>
+  <p align=justify>
+    In this paper, the two-dimensional cutting/packing problem with items that correspond to simple polygons that may contain holes are studied in which we propose algorithms based on no-fit polygon computation. We present a GRASP based heuristic for the 0/1 version of the knapsack problem, and another heuristic for the unconstrained version of the knapsack problem. This last heuristic is divided in two steps: first it packs items in rectangles and then use the rectangles as items to be packed into the bin. We also solve the cutting stock problem with items of irregular shape, by combining this last heuristic with a column generation algorithm. The algorithms proposed found optimal solutions for several of the tested instances within a reasonable runtime. For some instances, the algorithms obtained solutions with occupancy rates above 90% with relatively fast execution time.
+  </p>
+</details>
+
+<details>
+  <summary>
+    <b>Heuristic algorithms for the special knapsack packing problem with defects arising in aircraft arrangement</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417422024101"> Luo, Rao - (2023)  </a>
+  </summary>
+  <p align=justify>
+    This paper addresses a special knapsack packing problem in which identical pieces are packed into an irregular board with unusable regions to maximize the number of pieces. This problem arises from a real-world application in which the aircraft is placed on the carrier’s deck to maximize the number of aircraft. We propose the support polygon concept to solve one of the challenges of the problem, i.e., ensure that the support points inside the piece’s interior are located within the board when the piece protrudes from the board. Many strategies for determining the piece’s location and selecting the rotation angle of the piece are proposed and compared. Based on these techniques, we propose a deterministic heuristic algorithm to solve the problem. In addition, we develop an improved version of the algorithm, called the recursive search heuristic algorithm, to get higher-quality solutions. Many experiments were conducted to test the performance of different combinations of strategies and the proposed algorithms. The computational results show that the proposed algorithms have a strong capacity for obtaining good solutions, and updating many of the best results in the benchmark instances provided by the literature.
+  </p>
+</details>
 
 ##  Irregular 3D Packing Problem
 
-[Zhao, Jiang, Teo - (2020)](https://www.aimsciences.org/article/id/1cac7d3a-9283-4f4d-90bb-add8fdfe811d)
+<details>
+  <summary>
+    <b>A hybrid chaos firefly algorithm for three-dimensional irregular packing problem</b> &emsp;
+    <a href="https://www.aimsciences.org/article/id/1cac7d3a-9283-4f4d-90bb-add8fdfe811d">  Zhao, Jiang, Teo - (2020) </a>
+  </summary>
+  <p align=justify>
+    The packing problem study how to pack multiple objects without overlap. Various exact and approximate algorithms have been developed for two-dimensional regular and irregular packing as well as three-dimensional bin packing. However, few results are reported for three-dimensional irregular packing problems. This paper will develop a method for solving three-dimensional irregular packing problems. A three-grid approximation technique is first introduced to approximate irregular objects. Then, a hybrid heuristic method is developed to place and compact each individual objects where chaos search is embedded into firefly algorithm in order to enhance the algorithm's diversity for optimizing packing sequence and orientations. Results from several computational experiments demonstrate the effectiveness of the hybrid algorithm.
+  </p>
+</details>
+
 
 ## AI Approaches 
 
