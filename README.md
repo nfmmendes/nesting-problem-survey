@@ -16,9 +16,28 @@ We test our algorithms on three sets of test problem instances. In order to vali
 
 ## Scientific Tutorial 
 
-[Bennell, Oliveira - (2008)](https://paginas.fe.up.pt/~balobo/PPExt/Papers/O09.pdf)
+<details>
+<summary>
+  <b>The geometry of nesting problems: A tutorial</b> &emsp;
+  <a href="https://paginas.fe.up.pt/~balobo/PPExt/Papers/O09.pdf"> Bennell, Oliveira - (2008) </a>
+</summary>
+Cutting and packing problems involving irregular shapes is an important problem variant with a wide variety of indus-
+trial applications. Despite its relevance to industry, research publications are relatively low when compared to other cutting
+and packing problems. One explanation offered is the perceived difficulty and substantial time investment of developing a
+geometric tool box to assess computer generated solutions. In this paper we set out to provide a tutorial covering the core
+geometric methodologies currently employed by researchers in cutting and packing of irregular shapes. The paper is not
+designed to be an exhaustive survey of the literature but instead will draw on the literature to illustrate the theory and
+implementation of the approaches. We aim to provide a sufficiently instructive description to equip new and current
+researchers in the area to select the most appropriate methodology for their needs.
+</details>
 
-[Bennell, Oliveira - (2009)](https://www.jstor.org/stable/40206728)
+<details>
+  <summary>
+      <b> A Tutorial in Irregular Shape Packing Problems </b> &emsp;
+      <a href="https://www.jstor.org/stable/40206728"> Bennell, Oliveira - (2009) </a> 
+  </summary>
+  Cutting and packing problems have been a core area of research for many decades. Irregular shape packing is one of the most recent variants to be widely researched and its history extends over 40 years. The evolution of solution approaches to this problem can be attributed to increased computer power and advances in geometric techniques as well as more sophisticated and insightful algorithm design. In this paper we will focus on the latter. Our aim is not to give a chronological account or an exhaustive review, but to draw on the literature to describe and evaluate the core approaches. Irregular packing is combinatorial and as a result solution methods are heuristic, save a few notable exceptions. We will explore different ways of representing the problem and mechanisms for moving between solutions. We will also propose where we see the future challenges for researchers in this area.
+</details>
 
 ## Surveys
 [Leao, et. al. (2020)](https://www.sciencedirect.com/science/article/abs/pii/S0377221719303820) 
