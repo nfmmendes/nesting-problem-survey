@@ -1,5 +1,5 @@
 # Nesting Problem Short Survey
-Just some articles that deal with nesting problem (Irregular Knapsack Problem) and similar problems.
+Just some articles that deal with nesting problem (Irregular Packing Problem) and similar problems.
 
 <details>  
   <summary>
