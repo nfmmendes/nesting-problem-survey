@@ -439,25 +439,114 @@ obtained with other methodologies in the literature that use free rotations.
   </p>
 </details>
 
-[Sato, et. al. - (2019)](https://www.sciencedirect.com/science/article/abs/pii/S0377221719304837)
+<details>
+  <summary>
+    <b>Raster penetration map applied to the irregular packing problem</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221719304837"> Sato, et. al. - (2019) </a>
+  </summary>
+  <p align=justify>
+    Among the most complex problems in the field of 2-dimensional cutting & packing are irregular packing problems, in which items may have a more complex geometry. These problems are prominent in several areas, including, but not limited to, the textile, shipbuilding and leather industries. They consist in placing a set of items, whose geometry is often represented by simple polygons, into one or more containers such that there is no overlap between items and the utility rate of the container is maximized. In this work, the irregular strip packing problem, an irregular packing variant with a variable length container, is investigated. The placement space is reduced by adopting a rectangular grid and a full search is performed using preprocessed raster penetration maps to efficiently determine the new position of an item. Tests were performed using simple dotted board model cases and irregular strip packing benchmark instances. The comparison of our results with the state of the art solutions showed that the proposed algorithm is very competitive, achieving better or equal compaction in 9 out of 15 instances and improving the average density in 13 instances. Besides the contribution of the new best results, the proposed approach showed the advantage of adopting discrete placement, which can be potentially applied to other irregular packing problems.
+  </p>
+</details>
 
-[Oliveira, et. al. - (2020)](https://www.sciencedirect.com/science/article/abs/pii/S0360835220304721)
+<details>
+  <summary>
+    <b> Integrating irregular strip packing and cutting path determination problems: A discrete exact approach </b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0360835220304721"> Oliveira, et. al. - (2020) </a>
+  </summary>
+  <p align=justify>
+    The irregular strip packing problem arises in a wide variety of industrial sectors, from garment and footwear to the metal industry, and has a substantial impact in raw-material waste minimization. The goal of this problem is to find a layout for a large object to be cut into smaller pieces. What differentiates this problem from all the other cutting and packing problems, and is its primary source of complexity, is the irregular (non-rectangular) shape of the small pieces. However, in practical applications, after a layout has been determined, a second problem arises: finding the path that the cutting tool has to follow to actually cut the pieces, as previously planned. This second problem is known as the cutting path determination problem. Although the solution of the first problem strongly influences the resolution of the second one, only a few studies are dealing with cutting/packing and cutting path determination together, and, to the best of the authors’ knowledge, none of them considers the irregular strip packing problem. In this paper, we propose the first mathematical programming model that integrates the irregular strip packing and the cutting path determination problems. Computational experiments were run to show the correctness of the proposed model and the advantage of tackling the two problems together. Two variants of the cutting path determination problem were considered, the fixed vertex and the free cut models. The strengths and drawbacks of these two variants are also established through computational experiments. Overall, the computational results show that the integration of these problems is advantageous, even if only small instances could be solved to optimality, given that solving to optimality the integrated is at least as difficult as solving each one of the other problems individually. As future research, it should be highlighted that the proposed integrated model is a solid basis for the development of matheuristics aiming at tackling real-world size problems
+  </p>
+</details>
 
-[Hu, Li, Cui - (2020)](https://ieeexplore.ieee.org/abstract/document/9093914)
 
-[Rodrigues, Cherri - (2020)](https://www.itm-conferences.org/articles/itmconf/abs/2017/06/itmconf_apmod2017_00005/itmconf_apmod2017_00005.html)
+<details>
+  <summary>
+    <b>Greedy Adaptive Search: A New Approach for Large-Scale Irregular Packing Problems in the Fabric Industry</b> &emsp;
+    <a href="https://ieeexplore.ieee.org/abstract/document/9093914"> Hu, Li, Cui - (2020)  </a>
+  </summary>
+  <p align=justify>
+    The 2-dimensional irregular packing problems are important in the fabric industry. Under several restrictions, fabric packing problems require placing a given set of parts within a fixed-width rectangular sheet, aiming at a minimum length use. In textile industry production, the fabric packing problems are usually large-scale with time limits, where the total number of parts is large, and a high-utilization solution should be computed in several minutes. However, there are few existing works on large-scale packing problems. In this paper, we propose a greedy adaptive search algorithm by constructing a new evaluation function and introducing a new restricted local search strategy. In our algorithm, with a given initial sequence of parts, we iteratively search the best-fit part in succeeding several parts and place it on sheet. Moreover, we employ a two-stage heuristic searching algorithm to search over all the possible sequences for a good initial sequence with high utilization. Numerical examples involve some large-scale industrial instances, together with some large-scale instances generated from benchmarks. Numerical tests show that our algorithm outperforms existing state-of-the-art solvers in large-scale packing problems. The results show the potential of our algorithm to large-scale packing problems in industrial production.
+  </p>
+</details>
 
-[Leão, Toledo - (2021)](https://repositorio.usp.br/bitstreams/83b7bc41-fac2-413f-b6f7-deab749a57b7)
+<details>
+  <summary>
+    <b>MIP models for the irregular strip packing problem: new symmetry breaking constraints</b> &emsp;
+    <a href="https://www.itm-conferences.org/articles/itmconf/abs/2017/06/itmconf_apmod2017_00005/itmconf_apmod2017_00005.html"> Rodrigues, Cherri, Mundim - (2020) </a>
+  </summary>
+  <p align=justify>
+    The irregular strip packing problem consists in minimizing the length used to cut a set of pieces from a board with fixed width. Recently, a mixed integer programming model was proposed for the problem, but it may allow a large number of symmetric solutions. In this paper, new symmetry breaking constraints are proposed to improve the model. Computational experiments were performed for instances with convex pieces. The results show the proposed formulation is better than the previous one for most instances, since it improves lower bounds and reduces run-time and number of nodes explored to prove optimality.
+  </p>
+</details>
 
-[Queiroz, Andretta - (2022)](https://onlinelibrary.wiley.com/doi/abs/10.1111/itor.13122) 
+<details>
+  <summary>
+    <b>Enhanced solution for the irregular strip packing problem: valid inequalities and branching priorities</b> &emsp;
+    <a href="https://repositorio.usp.br/bitstreams/83b7bc41-fac2-413f-b6f7-deab749a57b7">  Leão, Toledo - (2021) </a>
+  </summary>
+  <p align=justify>
+    The irregular strip packing problem consists of packing a set of regular and irregular
+pieces on a board with fixed width and infinite length. All pieces are packed in such a way that
+they do not overlap while minimizing the used length of the board. Despite a few mathematical
+models having been proposed in the literature, solving the problem to optimality is still a challenge,
+and for only very few small instances, it is possible to find an optimal solution. In this paper, we
+apply a different branching strategy in the branch-and-bound method and add valid inequalities in
+a mathematical model of the literature. The usage of branching strategies and valid inequalities
+improve the performance of the commercial solver used to solve the mixed-integer programming
+model and provide the optimal solution for up to ten instances not proved in the previous paper.
+  </p>
+</details>
 
-[Umetani, Murakami - (2022)](https://www.sciencedirect.com/science/article/pii/S0377221722002582)
+<details>
+  <summary>
+    <b>A branch-and-cut algorithm for the irregular strip packing problem with uncertain demands</b> &emsp;
+    <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/itor.13122"> Queiroz, Andretta - (2022) </a>
+  </summary>
+  <p align=justify>
+    This work presents a tailored branch-and-cut algorithm for the two-dimensional irregular strip packing problem with uncertain demand for the items to be cut. A two-stage stochastic programming model is developed, considering a discrete and finite set of scenarios. The strip is discretized over a mesh of points in the model and includes constraints to ensure items are non-overlapping based on the concepts of inner-fit raster and no-fit raster. The algorithm considers lower and upper bounds from a heuristic based on the variable neighborhood search. This heuristic is also used during optimization to obtain new solutions and help to prune unsatisfactory nodes. The numerical results indicate the effectiveness of the proposed algorithm when observing other exact algorithms on the same problem without uncertainty. The algorithm can also provide optimal solutions for instances with uncertainty having more than 60 scenarios within some hours of execution. Besides, the conclusions show it is preferable to handle uncertainty to achieve minimum cost decisions.
+  </p>
+</details>
 
-[Kimms, Király - (2023)](https://www.sciencedirect.com/science/article/abs/pii/S0377221722006403)
+<details>
+  <summary>
+    <b>Coordinate descent heuristics for the irregular strip packing problem of rasterized shapes</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/pii/S0377221722002582"> Umetani, Murakami - (2022) </a>
+  </summary>
+  <p align=justify>
+    We consider the irregular strip packing problem of rasterized shapes, where a given set of pieces of irregular shapes represented in pixels should be placed into a rectangular container without overlap. The rasterized shapes provide simple procedures of the intersection test without any exceptional handling due to geometric issues, while they often require much memory and computational effort in high-resolution. To reduce the complexity of rasterized shapes, we propose a pair of scanlines representation called the double scanline representation that merges consecutive pixels in each row and column into strips with unit width, respectively. Based on this, we develop coordinate descent heuristics for the raster model that repeat a line search in the horizontal and vertical directions alternately, where we also introduce a corner detection technique used in computer vision to reduce the search space. Computational results for test instances show that the proposed algorithm obtains sufficiently dense layouts of rasterized shapes in high-resolution within a reasonable computation time.
+  </p>
+</details>
 
-[Rao, Luo - (2023)](https://link.springer.com/chapter/10.1007/978-981-19-5916-5_5)
+<details>
+  <summary>
+    <b>An extended model formulation for the two-dimensional irregular strip packing problem considering general industry-relevant aspects</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221722006403"> Kimms, Király - (2023) </a>
+  </summary>
+  <p align=justify>
+    Two-dimensional cutting and packing problems including irregular items (nesting problems) are common, e.g., in the clothing, paper, glass and leather industries. In the irregular strip packing problem considered in this work a finite number of rotations of convex as well as non-convex polygons with and without holes are permitted. To deal with the geometry of irregular items, direct trigonometry is applied. The focus is on aspects and characteristics that are typical for many affected industries and have been neglected so far. In the mentioned sectors, it is conceivable that items can be created from smaller parts by assembling them using various techniques. There might be several possible combinations of parts to be joined together to result in the desired item, i.e., there might be several cutting patterns to choose from. Also, whether the large material, i.e., large object is single-colored or has a particular structure or design is of great importance. In the latter case, special attention must be paid to the rotation of certain items or parts in order to achieve the desired (uniform or non-uniform) appearance of the final product. The utilized data structure is introduced, to address the mentioned aspects in the presented mixed-integer linear model which is an extension of a formulation published by previous authors. Furthermore, the method of calculating “critical vertices” is introduced, which requires only a reduced number of comparisons between edges and vertices of two items to ensure overlap-free positioning. Industry-relevant examples are highlighted in the computational study to illuminate the versatility of the model.
+  </p>
+</details>
 
-[Lastra-Diàz, Ortuño - (2024)](https://www.sciencedirect.com/science/article/pii/S0377221723006148)
+<details>
+  <summary>
+    <b>Solutions for New Variants of Packing Problem</b> &emsp;
+    <a href="https://link.springer.com/chapter/10.1007/978-981-19-5916-5_5"> Rao, Luo - (2023) </a>
+  </summary>
+  <p align=justify>
+    The 2DRSP and 2DISP problems are the most studied problem in the academic community. However, there are many kinds of packing problems in the reality according to the constraints and requirements. These problems have different characteristics resulting in designing the suitable approach to solve. In this chapter, three new variants of the packing problems are introduced. The solution method is proposed for each problem, i.e., the biased genetic algorithm hybridized with variable neighborhood search for the two-dimensional knapsack packing problem with defects, genetic algorithm, and grey wolf optimization algorithm for the irregular packing problem with defects, and biased genetic algorithm and grey wolf optimization for the rectangular packing problem with divisible items.
+  </p>
+</details>
+
+<details>
+  <summary>
+    <b>Mixed-integer programming models for irregular strip packing based on vertical slices and feasibility cuts</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/pii/S0377221723006148">  Lastra-Diàz, Ortuño - (2024) </a>
+  </summary>
+  <p align=justify>
+    The irregular strip-packing problem, also known as nesting or marker making, is defined as the automatic computation of a non-overlapping placement of a set of non-convex polygons onto a rectangular strip of fixed width and unbounded length, such that the strip length is minimized. Nesting methods based on heuristics are a mature technology, and currently, the only practical solution to this problem. However, recent performance gains of the Mixed-Integer Programming (MIP) solvers, together with the known limitations of the heuristics methods, have encouraged the exploration of exact optimization models for nesting during the last decade. Despite the research effort, there is room to improve the efficiency of the current family of exact MIP models for nesting. In order to bridge this gap, this work introduces a new family of continuous MIP models based on a novel formulation of the NoFit-Polygon Covering Model (NFP-CM), called NFP-CM based on Vertical Slices (NFP-CM-VS). Our new family of MIP models is based on a new convex decomposition of the feasible space of relative placements between pieces into vertical slices, together with a new family of valid inequalities, symmetry breakings, and variable eliminations derived from the former convex decomposition. Our experiments show that our new NFP-CM-VS models outperform the current state-of-the-art MIP models. Ten instances are solved up to optimality within one hour for the first time, including one with 27 pieces. Finally, we provide a detailed reproducibility protocol and dataset as supplementary material to allow the exact replication of our models, experiments, and results.
+  </p>
+</details>
 
 ## Irregular shapes clustering
 [Bennel et. al. - (2014)](https://link.springer.com/article/10.1007/s10898-014-0192-0)
