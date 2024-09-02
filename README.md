@@ -302,7 +302,7 @@ The performance of the CP model for the strip packing problem with the global co
 <details>
   <summary>
     <b>A separation and compaction algorithm for the two-open dimension nesting problem using penetration-fit raster and obstruction map</b> &emsp;
-    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417423002178">  </a>
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417423002178"> Sato, et. al. - (2023)  </a>
   </summary>
   <p align=justify>
     Nesting Problems, which are important subjects in the cutting and packing field, involve convex and nonconvex polygons and are common in several industries. These irregular open dimensional problems have been studied for decades, particularly the variant with one open dimension. However, in real-world applications, situations that are better suited to a two open dimensional model may arise and, in this sense, the literature is very limited. We here propose new separation and compaction algorithms for two-open dimension nesting problem. The paper develops an adaptation of the no-fit polygon to consider the penetration depth of pieces. The approach is based on an iterative compaction scheme, in which the key step is an obstruction map-based separation algorithm. The algorithms proposed found optimal solutions for artificial instances with up to 28 items within a small runtime. The results of benchmark instances indicate that the new algorithm is competitive when compared with other literature algorithms. It improved 14 of 15 benchmark instances when considering literature approaches on two open dimensions. In addition, the new algorithm achieved better occupation for some open dimension instances than the state of the art.
@@ -549,37 +549,159 @@ model and provide the optimal solution for up to ten instances not proved in the
 </details>
 
 ## Irregular shapes clustering
-[Bennel et. al. - (2014)](https://link.springer.com/article/10.1007/s10898-014-0192-0)
+
+<details>
+  <summary>
+    <b> Optimal clustering of a pair of irregular objects  </b> &emsp;
+    <a href="https://link.springer.com/article/10.1007/s10898-014-0192-0"> Bennel et. al. - (2014)  </a>
+  </summary>
+  <p align=justify>
+    Cutting and packing problems arise in many fields of applications and theory. When dealing with irregular objects, an important subproblem is the identification of the optimal clustering of two objects. Within this paper we consider a container (rectangle, circle, convex polygon) of variable sizes and two irregular objects bounded by circular arcs and/or line segments, that can be continuously translated and rotated. In addition minimal allowable distances between objects and between each object and the frontier of a container, may be imposed. The objects should be arranged within a container such that a given objective will reach its minimal value. We consider a polynomial function as the objective, which depends on the variable parameters associated with the objects and the container. The paper presents a universal mathematical model and a solution strategy which are based on the concept of phi-functions and provide new benchmark instances of finding the containing region that has either minimal area, perimeter or homothetic coefficient of a given container, as well as finding the convex polygonal hull (or its approximation) of a pair of objects.
+  </p>
+</details>
+
 
 ## Irregular 2D Bin Packing 
 
-[Yao et. al. (2024)](https://www.sciencedirect.com/science/article/abs/pii/S0305054823003404)
+<details>
+  <summary>
+    <b>An iteratively doubling binary search for the two-dimensional irregular multiple-size bin packing problem raised in the steel industry</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0305054823003404"> Yao et. al. (2024)  </a>
+  </summary>
+  <p align=justify>
+    This paper examines the two-dimensional irregular multiple-size bin packing problem, where the goal is to pack all the given irregular pieces into bins of various sizes such that the total area of the used bins is minimized. Meanwhile, the irregular pieces include holes, and the bins can be irregular, also. This problem is raised in the steel industry considering the reuse of leftover material. An iteratively doubling binary search is proposed to solve this problem. Moreover, a binary search strategy is introduced to search the bin combination with minimum area, and an iteratively doubling strategy is utilized to control the search effort on each bin combination. Once the bins are identified, a first-fit bottom-left method is utilized to generate the initial position for each piece. An overlap minimization approach, which includes a local search by exchanging the positions of two pieces, is adapted to minimize the overlap in the initial solution. Experiment results on existing instances show that our approach could find a better solution than existing methods. Several instances representing different application scenarios are generated, and the results show our approach’s effectiveness and generality.
+  </p>
+</details>
 
-[Dalalah, Khrais, Bataineh (2014)](https://www.sciencedirect.com/science/article/abs/pii/S0278612513001209)
+<details>
+  <summary>
+    <b>Waste minimization in irregular stock cutting</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0278612513001209"> Dalalah, Khrais, Bataineh (2014)  </a>
+  </summary>
+  <p align=justify>
+    This paper addresses a category of two dimensional NP-hard knapsack problem in which a given convex/non-convex planner items (polygons) have to be cut out of a single convex/non-convex master surface (stock). This cutting process is found in many industrial applications such as sheet metal processes, home-textile, garment, wood, leather and paper industries. An approach is proposed to solve this problem, which depends on the concept of the difference between the area of a collection of polygons and the area of their convex hull. The polygon assignment inside the stock is subjected to feasibility tests to avoid overlapping, namely, angle test, bound test, point inclusion and polygon intersection test. An iterative scheme is used to generate different polygon placements while optimizing the objective function. Computer software is developed to solve and optimize the problem under consideration. Few examples are conducted for different combinations of convex, non-convex items and stocks. Well-known benchmark problems from the literature are tested and compared with our approach. The results of our algorithm have an interesting computational time and can compete with the results of previous work in some particular problems. The computational performance of the developed software indicates the efficiency of the algorithm for solving 2-D irregular cutting of non-convex polygons out of non-convex stock.
+  </p>
+</details>
 
-[Luo, Rao, Peng - (2022)](https://www.sciencedirect.com/science/article/abs/pii/S1568494621009716)
+<details>
+  <summary>
+    <b>GA and GWO algorithm for the special bin packing problem encountered in field of aircraft arrangement</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S1568494621009716">  Luo, Rao, Peng - (2022) </a>
+  </summary>
+  <p align=justify>
+    This paper addresses a special case of irregular bin packing problem which the irregular pieces with free rotation have to fill a large irregular stock sheet with defective regions while satisfying the special boundary constraint, i.e., the piece can protrude from the sheet so long as the key points in the piece’s interior lie within the container. The objective of this problem is to maximize the number of filled pieces. To our best knowledge, the piece must be placed completely inside the sheet for all packing problem tackled by published literature. Thus, existing approaches are not good solutions to this special packing problem. To achieve the goal of automated arrangement of pieces and maximize the space utilization, the genetic algorithm and grey wolf optimization algorithm are designed to solve it. The genetic algorithm adopts the elitism strategy for maintaining the portion of the best chromosomes. A new method of updating the main controlling parameter is applied for reinforcing the exploration ability of the grey wolf optimization. These two algorithms use a vector of pieces as the solution representation, and a novel heuristic algorithm decodes it to produce a layout. The proposed heuristic algorithm divides the process of packing into two stages with the objective of satisfying constraints and achieving good space utilization of sheet. Computational experiments show that the presented methods can solve this new kind of the packing problem very well.
+  </p>
+</details>
 
-[Lopez-Camacho, Ochoa - (2013)](https://link.springer.com/article/10.1007/s10479-013-1341-4)
+<details>
+  <summary>
+    <b>An effective heuristic for the two-dimensional irregular bin packing problem</b> &emsp;
+    <a href="https://link.springer.com/article/10.1007/s10479-013-1341-4"> Lopez-Camacho, Ochoa - (2013)  </a>
+  </summary>
+  <p align=justify>
+    This paper proposes an adaptation, to the two-dimensional irregular bin packing problem of the Djang and Finch heuristic (DJD), originally designed for the one-dimensional bin packing problem. In the two-dimensional case, not only is it the case that the piece’s size is important but its shape also has a significant influence. Therefore, DJD as a selection heuristic has to be paired with a placement heuristic to completely construct a solution to the underlying packing problem. A successful adaptation of the DJD requires a routine to reduce computational costs, which is also proposed and successfully tested in this paper. Results, on a wide variety of instance types with convex polygons, are found to be significantly better than those produced by more conventional selection heuristics.
+  </p>
+</details>
 
-[Sykora, et. al - (2015)](https://www.sciencedirect.com/science/article/abs/pii/S0305048314001285)
+<details>
+  <summary>
+    <b>Constructive procedures to solve 2-dimensional bin packing problems with irregular pieces and guillotine cuts</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0305048314001285"> Sykora, et. al - (2015)  </a>
+  </summary>
+  <p align=justify>
+    This paper presents an approach for solving a new real problem in cutting and packing. At its core is an innovative mixed integer programme model that places irregular pieces and defines guillotine cuts. The two-dimensional irregular shape bin packing problem with guillotine constraints arises in the glass cutting industry, for example, the cutting of glass for conservatories. Almost all cutting and packing problems that include guillotine cuts deal with rectangles only, where all cuts are orthogonal to the edges of the stock sheet and a maximum of two angles of rotation are permitted. The literature tackling packing problems with irregular shapes largely focuses on strip packing i.e. minimizing the length of a single fixed width stock sheet, and does not consider guillotine cuts. Hence, this problem combines the challenges of tackling the complexity of packing irregular pieces with free rotation, guaranteeing guillotine cuts that are not always orthogonal to the edges of the stock sheet, and allocating pieces to bins. To our knowledge only one other recent paper tackles this problem. We present a hybrid algorithm that is a constructive heuristic that determines the relative position of pieces in the bin and guillotine constraints via a mixed integer programme model. We investigate two approaches for allocating guillotine cuts at the same time as determining the placement of the piece, and a two phase approach that delays the allocation of cuts to provide flexibility in space usage. Finally we describe an improvement procedure that is applied to each bin before it is closed. This approach improves on the results of the only other publication on this problem, and gives competitive results for the classic rectangle bin packing problem with guillotine constraints.
+  </p>
+</details>
 
-[Stoyan, Zlotnik, Chugay - (2011)](https://www.tandfonline.com/doi/abs/10.1057/jors.2011.41)
+<details>
+  <summary>
+    <b>Solving an optimization packing problem of circles and non-convex polygons with rotations into a multiply connected region</b> &emsp;
+    <a href="https://www.tandfonline.com/doi/abs/10.1057/jors.2011.41"> Stoyan, Zlotnik, Chugay - (2011)  </a>
+  </summary>
+  <p align=justify>
+    This paper deals with the packing problem of circles and non-convex polygons, which can be both translated and rotated into a strip with prohibited regions. Using the Φ-function technique, a mathematical model of the problem is constructed and its characteristics are investigated. Based on the characteristics, a solution approach to the problem is offered. The approach includes the following methods: an optimization method by groups of variables to construct starting points, a modification of the Zoutendijk feasible direction method to search for local minima and a special non-exhaustive search of local minima to find an approximation to a global minimum. A number of numerical results are given. The numerical results are compared with the best known ones.
+  </p>
+</details>
 
-[Santoro, Lemos - (2015)](https://link.springer.com/article/10.1007/s10479-015-1971-9)
+<details>
+  <summary>
+    <b>Irregular packing: MILP model based on a polygonal enclosure</b> &emsp;
+    <a href="https://link.springer.com/article/10.1007/s10479-015-1971-9"> Santoro, Lemos - (2015) </a>
+  </summary>
+  <p align=justify>
+    This paper addresses the two-dimensional irregular packing problem, also known as the nesting problem. This is a subset of cutting and packing problems of renowned practical and theoretical relevance. A mixed integer-linear programming formulation is proposed to optimize the packing of particular polygonal shapes, convex forms with 3–8 sides, since their opposite sides are parallel. The model can be used to pack enclosures of general irregular shapes, generating upper bounds to the optimal solutions. The model was tested with 270 mass generated instances of small dimensions.
+  </p>
+</details>
 
-[Zhang, et. al. - (2022)](https://www.sciencedirect.com/science/article/abs/pii/S0305054821002847)
+<details>
+  <summary>
+    <b>An iteratively doubling local search for the two-dimensional irregular bin packing problem with limited rotations</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0305054821002847">   </a>
+  </summary>
+  <p align=justify>
+    This paper proposes an iteratively doubling local search approach for the two-dimensional irregular bin packing problem (2DIRBPP) with limited rotations, whose objective is to pack a given set of irregular pieces into the minimum number of rectangular bins. The allowable angles of each piece are limited. To solve this problem, a waste least first decreasing strategy is introduced to assign the piece to the bins. A simple greedy local search approach by moving the pieces from one bin to another is utilized to improve the solution. We adapt an overlap minimization approach to solving the one bin placement problem. The classical bottom-left method is utilized to generate the initial position for each piece, and the random local search by exchanging the positions of two pieces is used to minimize the overlap. Moreover, a novel warm start and an iteratively doubling search strategy are proposed to speed up the search process. The standard benchmark results show that our approach improves the results for most of the instances in the literature.
+  </p>
+</details>
 
-[Abeysooriya, Bennell, Martinez-Sykora - (2018)](https://www.sciencedirect.com/science/article/abs/pii/S0925527317302980)
+<details>
+  <summary>
+    <b>Jostle heuristics for the 2D-irregular shapes bin packing problems with free rotation</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925527317302980"> Abeysooriya, Bennell, Martinez-Sykora - (2018)  </a>
+  </summary>
+  <p align=justify>
+    The paper investigates the two-dimensional irregular packing problem with multiple homogeneous bins (2DIBPP). The literature on irregular shaped packing problems is dominated by the single stock sheet strip packing problem. However, in reality manufacturers are cutting orders over multi-stock sheets. Despite its greater relevance, there are only a few papers that tackle this problem in the literature. A multi-stock sheet problem has two decision components; the allocation of pieces to stock sheets and the layout design for each stock sheet. In this paper, we propose a heuristic method that addresses both the allocation and placement problems together based on the Jostle algorithm. Jostle was first applied to strip packing. In order to apply Jostle to the bin packing problem we modify the placement heuristic. In addition we improve the search capability by introducing a diversification mechanism into the approach. Furthermore, the paper presents alternative strategies for handling rotation of pieces, which includes a restricted set of angles and unrestricted rotation. Very few authors permit unrestricted rotation of pieces, despite this being a feature of many problems where the material is homogeneous. Finally, we investigate alternative placement criteria and show that the most commonly applied bottom left criteria does not perform as well as other options. The paper evaluates performance of each algorithm using different sets of instances considering convex and non-convex shapes. Findings of this study reveal that the proposed algorithms can be applied to different variants of the problem and generate significantly better results.
+  </p>
+</details>
 
-[Han et al. - (2013)](https://www.sciencedirect.com/science/article/abs/pii/S0377221713003627)
+<details>
+  <summary>
+    <b>Construction heuristics for two-dimensional irregular shape bin packing with guillotine constraints</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221713003627"> Han et al. - (2013)  </a>
+  </summary>
+  <p align=justify>
+    The paper examines a new problem in the irregular packing literature that has many applications in industry: two-dimensional irregular (convex) bin packing with guillotine constraints. Due to the cutting process of certain materials, cuts are restricted to extend from one edge of the stock-sheet to another, called guillotine cutting. This constraint is common place in glass cutting and is an important constraint in two-dimensional cutting and packing problems. In the literature, various exact and approximate algorithms exist for finding the two dimensional cutting patterns that satisfy the guillotine cutting constraint. However, to the best of our knowledge, all of the algorithms are designed for solving rectangular cutting where cuts are orthogonal with the edges of the stock-sheet. In order to satisfy the guillotine cutting constraint using these approaches, when the pieces are non-rectangular, practitioners implement a two stage approach. First, pieces are enclosed within rectangle shapes and then the rectangles are packed. Clearly, imposing this condition is likely to lead to additional waste. This paper aims to generate guillotine-cutting layouts of irregular shapes using a number of strategies. The investigation compares three two-stage approaches: one approximates pieces by rectangles, the other two approximate pairs of pieces by rectangles using a cluster heuristic or phi-functions for optimal clustering. All three approaches use a competitive algorithm for rectangle bin packing with guillotine constraints. Further, we design and implement a one-stage approach using an adaptive forest search algorithm. Experimental results show the one-stage strategy produces good solutions in less time over the two-stage approach.
+  </p>
+</details>
 
-[Guerriero, Saccomanno - (2023)](https://link.springer.com/article/10.1007/s00500-022-07118-4)
+<details>
+  <summary>
+    <b>A hierarchical hyper-heuristic for the bin packing problem</b> &emsp;
+    <a href="https://link.springer.com/article/10.1007/s00500-022-07118-4">  Guerriero, Saccomanno - (2023) </a>
+  </summary>
+  <p align=justify>
+    This paper addresses the two-dimensional irregular bin packing problem, whose main aim is to allocate a given set of irregular pieces to larger rectangular containers (bins), while minimizing the number of bins required to contain all pieces. To solve the problem under study a dynamic hierarchical hyper-heuristic approach is proposed. The main idea of the hyper-heuristics is to search the space of low-level heuristics for solving computationally difficult problems. The proposed approach is “dynamic” since the low-level heuristic to be executed is chosen on the basis of the main characteristics of the instance to be solved. The term “hierarchical” is used to indicate the fact that the main hyper-heuristic can execute either simple heuristics or can run in a “recursive fashion” a hyper-heuristic. The developed solution strategy is evaluated empirically by performing extensive experiments on irregular packing benchmark instances. A comparison with the state-of-the-art approaches is also carried out. The computational results are very encouraging. 
+  </p>
+</details>
 
-[Benell, Cabo, Martinez-Sykora - (2018)](https://link.springer.com/article/10.1007/s00500-022-07118-4)
+<details>
+  <summary>
+    <b>A beam search approach to solve the convex irregular bin packing problem with guillotine cuts</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221718302571"> Benell, Cabo, Martinez-Sykora - (2018)  </a>
+  </summary>
+  <p align=justify>
+    This paper presents a two dimensional convex irregular bin packing problem with guillotine cuts. The problem combines the challenges of tackling the complexity of packing irregular pieces, guaranteeing guillotine cuts that are not always orthogonal to the edges of the bin, and allocating pieces to bins that are not necessarily of the same size. This problem is known as a two-dimensional multi bin size bin packing problem with convex irregular pieces and guillotine cuts. Since pieces are separated by means of guillotine cuts, our study is restricted to convex pieces.A beam search algorithm is described, which is successfully applied to both the multi and single bin size instances. The algorithm is competitive with the results reported in the literature for the single bin size problem and provides the first results for the multi bin size problem.
+  </p>
+</details>
 
-[Hu et al - (2018)](https://www.taylorfrancis.com/chapters/edit/10.1201/9781351236423-33/practical-algorithms-two-dimensional-packing-general-shapes-yannan-hu-hideki-hashimoto-shinji-imahori-mutsunori-yagiura)
+<details>
+  <summary>
+    <b>Practical Algorithms for Two-Dimensional Packing of General Shapes</b> &emsp;
+    <a href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781351236423-33/practical-algorithms-two-dimensional-packing-general-shapes-yannan-hu-hideki-hashimoto-shinji-imahori-mutsunori-yagiura"> Hu et al - (2018)  </a>
+  </summary>
+  <p align=justify>
+    This chapter discusses the heuristics, metaheuristics, and exact algorithms for two-dimensional packing problems of general shapes. It explores the procedure of applying the bottom-left strategy to a given order the bottom-left algorithm. The chapter explains the irregular strip packing problem and introduces some practical algorithms for irregular packing problems. It focuses on the problem of packing irregular shapes represented in bitmap format and analyses the rectilinear block packing problem and also introduces various schemes used to represent solutions to the rectilinear block packing problem and algorithms based on such coding schemes. The chapter considers two-dimensional irregular packing problems, which have been actively studied in the last decade. It provides some basic techniques including bottom-left strategy, clustering strategy, and no-fit polygons. The chapter shows that various algorithms proposed for the irregular strip packing and bin packing problems and their variants. T. Imamichi et al. proposed an iterated local search based on nonlinear programming for the irregular strip packing problem.
+  </p>
+</details>
 
-[Rao, Wang, Luo - (2020)](https://www.hindawi.com/journals/mpe/2021/5054916/)
+<details>
+  <summary>
+    <b>Hybridizing Beam Search with Tabu Search for the Irregular Packing Problem</b> &emsp;
+    <a href="https://www.hindawi.com/journals/mpe/2021/5054916/"> Rao, Wang, Luo - (2020)  </a>
+  </summary>
+  <p align=justify>
+    The irregular packing problem involves arranging all the irregular pieces on a plate with the objective of maximizing the use of material. In this article, the layout is formed by the ordered sequence of the irregular pieces which is obtained by a hybrid search algorithm and where the order is decoded by a proposed placement principle. First, a novel no-fit-polygon (NFP) generator is introduced. Then, a placement principle is presented with the new NFP generator. Finally, a search algorithm hybridized with beam search (BS) and tabu search (TS) is proposed to search over the sequence. The numerical experiments with many benchmark problems show that the hybrid algorithm is an applicative and effective approach for solving the irregular packing problem. The hybrid algorithm can produce competitive solutions in less time than many other typical algorithms.
+  </p>
+</details>
 
 ## Irregular cutting stock
 
