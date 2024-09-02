@@ -135,15 +135,56 @@ To reduce the complexity of the nesting problem, pairwise clustering is introduc
   </p>
 </details>
 
-[Toledo, et. al. - (2013)](https://www.sciencedirect.com/science/article/abs/pii/S0925527313001722)
 
-[Amaro Junior, Pinheiro, Saraiva - (2013)](https://www.sciencedirect.com/science/article/pii/S1474667016321590)
+<details>
+  <summary>
+    <b> The Dotted-Board Model: A new MIP model for nesting irregular shapes </b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925527313001722">Toledo, et. al. - (2013)</a>
+  </summary>
+  <p align=justify>
+    The nesting problem, also known as irregular packing problem, belongs to the generic class of cutting and packing (C&P) problems. It differs from other 2-D C&P problems in the irregular shape of the pieces. This paper proposes a new mixed-integer model in which binary decision variables are associated with each discrete point of the board (a dot) and with each piece type. It is much more flexible than previously proposed formulations and solves to optimality larger instances of the nesting problem, at the cost of having its precision dependent on board discretization. To date no results have been published concerning optimal solutions for nesting problems with more than 7 pieces. We ran computational experiments on 45 problem instances with the new model, solving to optimality 34 instances with a total number of pieces ranging from 16 to 56, depending on the number of piece types, grid resolution and the size of the board. A strong advantage of the model is its insensitivity to piece and board geometry, making it easy to extend to more complex problems such as non-convex boards, possibly with defects. Additionally, the number of binary variables does not depend on the total number of pieces but on the number of piece types, making the model particularly suitable for problems with few piece types. The discrete nature of the model requires a trade-off between grid resolution and problem size, as the number of binary variables grows with the square of the selected grid resolution and with board size.
+  </p>
+</details>
 
-[Sherif, Jawahar, Balamurali - (2014)](https://www.sciencedirect.com/science/article/abs/pii/S0278612514000661)
+<details>
+  <summary>
+    <b> A Hybrid Methodology for Nesting Irregular Shapes: Case Study on a Textile Industry </b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/pii/S1474667016321590">Amaro Junior, Pinheiro, Saraiva - (2013)</a>
+  </summary>
+  <p align=justify>
+    The aim of this paper is to describe a hybrid methodology that combines a Genetic Algorithm and a Bottom-Left Greedy procedure for solving the two-dimensional Nesting Problem. The No-Fit Polygon construct is applied for obtaining local optima. Furthermore, a shrinking algorithm is incorporated to the metaheuristic engine to identify good quality solutions. Computational experiments performed on standard benchmark problems, as well as a practical case study developed in a textile industry, are also reported and discussed here in a manner as to testify the potentialities behind the novel approach.
+  </p>
+</details>
 
-[Leao et. al. - (2014)](https://www.tandfonline.com/doi/abs/10.1080/00207543.2015.1041571)
+<details>
+  <summary>
+    <b> Sequential optimization approach for nesting and cutting sequence in laser cutting</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0278612514000661">Sherif, Jawahar, Balamurali - (2014)</a>
+  </summary>
+  <p align=justify>
+    The economy of the laser cutting process depends on two productivity issues: (i) nesting, a classic problem of finding the most efficient layout for cutting parts with minimum material waste; (ii) cutting sequence, which targets the optimal sequence of edges of the parts to be cut for minimum cycle time. This paper presents a two stage sequential optimization procedure for nesting and cutting sequence for the objectives of maximizing material utilization and minimization of ideal (non-cut) travel distance of laser cut tool. However, the focus of this paper is the development of solution technique for optimal cutting sequence to any given layout. Simulated annealing algorithm (SAA) is considered to evolve the optimal cutting sequence. The proposed SAA is illustrated with the optimal material utilization layout obtained using sheet cutting suite software, a professional rectangular nesting software package. The robust test carried out with five typical problems shows that the SAA proposed for cutting sequence is capable of providing near optimal solutions. The performance comparison with two literature problems reveals that the proposed SAA is able to give improved result than GA and ACO algorithms.
+  </p>
+</details>
 
-[Pinheiro, Amaro Junior, Saraiva - (2014)](https://www.tandfonline.com/doi/full/10.1080/0951192X.2022.2050302)
+<details>
+  <summary>
+    <b> A semi-continuous MIP model for the irregular strip packing problem </b> &emsp;
+    <a href="https://www.tandfonline.com/doi/abs/10.1080/00207543.2015.1041571"> Leao et. al. - (2014) </a>
+  </summary>
+  <p align=justify>
+    Solving nesting problems involves the waste minimisation in cutting processes, and therefore it is not only economically relevant for many industries but has also an important environmental impact, as the raw materials that are cut are usually a natural resource. However, very few exact approaches have been proposed in the literature for the nesting problem (also known as irregular packing problem), and the majority of the known approaches are heuristic algorithms, leading to suboptimal solutions. The few mathematical programming models known for this problem can be divided into discrete and continuous models, based on how the placement coordinates of the pieces to be cut are dealt with. In this paper, we propose an innovative semi-continuous mixed-integer programming model for two-dimensional cutting and packing problems with irregular shaped pieces. The model aims to exploit the advantages of the two previous classes of approaches and discretises the -axis while keeping the -coordinate continuous. The board can therefore be seen as a set of stripes. Computational results show that the model, when solved by a commercial solver, can deal with large problems and determine the optimal solution for smaller instances, but as it happens with discrete models, the optimal solution value depends on the discretisation step that is used.
+  </p>
+</details>
+
+<details>
+  <summary>
+    <b>A random-key genetic algorithm for solving the nesting problem</b> &emsp;
+    <a href="https://www.tandfonline.com/doi/abs/10.1080/0951192X.2015.1036522"> Pinheiro, Amaro Junior, Saraiva - (2061) </a>
+  </summary>
+  <p align=justify>
+    This article presents a random-key genetic algorithm (RKGA) for the nesting problem, a particular case of cutting and packing problems in which a collection of items (or polygons) has to be packed onto a rectangular object with the aim of minimising its length. In general, our approach prescribes the integration of the aforementioned metaheuristic and well-known placement rules (e.g. bottom-left). Furthermore, a shrinking algorithm – that operates within the RKGA – is also proposed to improve partial solutions. To assess the potentials of the proposed methodology, computational experiments performed on a set of difficult benchmark instances of the nesting problem are discussed here for evaluation purposes, showing that our algorithm is able to compete with previous successful studies in some particular problem instances.
+  </p>
+</details>
 
 [Martins, et. al. - (2016)](https://www.tandfonline.com/doi/full/10.1080/0951192X.2015.1033018?scroll=top&needAccess=true)
 
@@ -163,7 +204,15 @@ To reduce the complexity of the nesting problem, pairwise clustering is introduc
 
 [Chehrazad, Roose, Wauters - (2022)](https://www.sciencedirect.com/science/article/abs/pii/S0377221721008936)
 
-[Sato, Martins, Tsuzuki - (2022)](https://www.tandfonline.com/doi/full/10.1080/0951192X.2022.2050302)
+<details>
+  <summary>
+    <b> A study on GPU acceleration applied to 2D irregular packing problems </b> &emsp;
+    <a href="https://www.tandfonline.com/doi/full/10.1080/0951192X.2022.2050302"> Sato, Martins, Tsuzuki - 2022  </a>
+  </summary>
+  <p align=justify>
+   Irregular packing problems are an important subject of study in C&P problems. An efficient solution can have a great economic and environmental impact. The main objective is to obtain a feasible layout, a configuration whereby items are completely placed inside one or more containers without overlap. Although many solutions in the literature are capable of achieving high density solutions for benchmark instances, they are limited to small and medium problems. The best packing algorithms adopt the overlap minimization approach, in which the overlap restriction is relaxed by adopting an overlap function. Thus, a study of parallel implementation is proposed to accelerate the overlap minimization solution and reduce the processing time, potentially allowing for the solution of more complex instances. The results showed high speedups for the parallelization of the local search algorithm, achieving an acceleration of up to 16x. Then, by applying this accelerated method to a packing algorithm, speedups of up to 4.5 were observed. Due to their stochastic nature, the tests were repeated several times for each instance and the average results were computed. These results demonstrated the potential for GPU application with irregular packing, which can be extended to achieve its full capability.
+  </p>
+</details>
 
 [Sato, et. al - (2023)](https://www.sciencedirect.com/science/article/abs/pii/S0957417423002178)
 
