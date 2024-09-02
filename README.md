@@ -1,7 +1,18 @@
 # Nesting Problem Short Survey
 Just some articles that deal with nesting problem (Irregular Knapsack Problem)
 
-[Base Paper - Baldacci et. al. (2014)](https://www.sciencedirect.com/science/article/pii/S0166218X12001308#:~:text=The%20nesting%20problem%20is%20an,master%20surface%20could%20contain%20defects.)
+<details>  
+  <summary>
+    <b>(Base Paper) Algorithms for nesting with defects </b> &emsp;<a  href="https://www.sciencedirect.com/science/article/pii/S0166218X12001308#:~:text=The%20nesting%20problem%20is%20an,master%20surface%20could%20contain%20defects."> Baldacci et. al. (2014)</a>
+  </summary>
+  
+  The nesting problem is an irregular two-dimensional cutting problem where the shapes of the pieces to cut and the master surfaces are irregular in shape and different in size. In particular, we consider nesting problems where the master surface could contain defects. Some of them can be accepted (i.e., incorporated) in certain types of pieces, while other defected areas must be avoided. The problems considered in this paper arise in the leather garment and furniture industry.
+
+First, we solve nesting problems involving a single master surface (Irregular Single Knapsack Problem) for which we propose three different constructive (placement) procedures for the pieces. These procedures generate sets of cutting patterns, which are global configurations of the pieces, as sets on the master surface, and are included in an iterative algorithm motivated by a Lagrangean relaxation approach, where the Lagrangean dual seeds a Guided Local Search hybrid. Finally, we embed this iterative algorithm into a heuristic for solving the problem of cutting more than one master surface for producing all of the requested pieces, minimizing the total waste (Irregular Multiple Stock-Size Cutting Stock Problem).
+
+We test our algorithms on three sets of test problem instances. In order to validate the new heuristics for the nesting problem involving a single master surface we use a set of well-known irregular strip packing instances from the literature, where defects are not considered. The new heuristics for the nesting problem involving multiple master surfaces are then tested on a set of rectangular bin-packing instances and on a set of real-world instances obtained from leather garment and furniture industries with defects in the master surface.
+</details>
+
 
 ## Scientific Tutorial 
 
