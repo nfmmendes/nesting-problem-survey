@@ -331,25 +331,113 @@ The performance of the CP model for the strip packing problem with the global co
 
 ## Strip packing
 
-[Sato, Martins, Tsuzuki - (2012)](https://www.sciencedirect.com/science/article/abs/pii/S0010448512000565)
+<details>
+  <summary>
+    <b>An algorithm for the strip packing problem using collision free region and exact fitting placement</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0010448512000565"> Sato, Martins, Tsuzuki - (2012) </a>
+  </summary>
+  <p align=justify>
+    The irregular shape packing problem is approached. The container has a fixed width and an open dimension to be minimized. The proposed algorithm constructively creates the solution using an ordered list of items and a placement heuristic. Simulated annealing is the adopted metaheuristic to solve the optimization problem. A two-level algorithm is used to minimize the open dimension of the container. To ensure feasible layouts, the concept of collision free region is used. A collision free region represents all possible translations for an item to be placed and may be degenerated. For a moving item, the proposed placement heuristic detects the presence of exact fits (when the item is fully constrained by its surroundings) and exact slides (when the item position is constrained in all but one direction). The relevance of these positions is analyzed and a new placement heuristic is proposed. Computational comparisons on benchmark problems show that the proposed algorithm generated highly competitive solutions. Moreover, our algorithm updated some best known results.
+  </p>
+</details>
 
-[Leung, Lin, Zhang - (2012)](https://www.sciencedirect.com/science/article/abs/pii/S0305054811001596)
+<details>
+  <summary>
+    <b>Extended local search algorithm based on nonlinear programming for two-dimensional irregular strip packing problem</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0305054811001596"> Leung, Lin, Zhang - (2012) </a>
+  </summary>
+  <p align=justify>
+    This paper presents an extended local search algorithm (ELS) for the irregular strip packing problem. It adopts two neighborhoods, swapping two given polygons in a placement and placing one polygon into a new position. The local search algorithm is used to minimize the overlap on the basis of the neighborhoods mentioned above and the unconstrained nonlinear programming model is adopted to further minimize the overlap during the search process. Moreover, the tabu search algorithm is used to avoid local minima, and a compact algorithm is presented to improve the result. The results of standard test instances indicate that when compared with other existing algorithms, the presented algorithm does not only show some signs of competitive power but also updates several best known results.
+  </p>
+</details>
 
-[Shalaby, Kashkoush - (2013)](https://www.scirp.org/html/2-1040217_29233.htm)
+<details>
+  <summary>
+    <b>A Particle Swarm Optimization Algorithm for a 2-D Irregular Strip Packing Problem</b> &emsp;
+    <a href="https://www.scirp.org/html/2-1040217_29233.htm">  Shalaby, Kashkoush - (2013)</a>
+  </summary>
+  <p align=justify>
+    Two-Dimensional Irregular Strip Packing Problem is a classical cutting/packing problem. The problem is to assign, a set of 2-D irregular-shaped items to a rectangular sheet. The width of the sheet is fixed, while its length is extendable and has to be minimized. A sequence-based approach is developed and tested. The approach involves two phases; optimization phase and placement phase. The optimization phase searches for the packing sequence that would lead to an optimal (or best) solution when translated to an actual pattern through the placement phase. A Particle Swarm Optimization algorithm is applied in this optimization phase. Regarding the placement phase, a combined algorithm based on traditional placement methods is developed. Competitive results are obtained, where the best solutions are found to be better than, or at least equal to, the best known solutions for 10 out of 31 benchmark data sets. A Statistical Design of Experiments and a random generator of test problems are also used to characterize the performance of the entire algorithm.
+  </p>
+</details>
 
-[Cherry et. al. - (2016)](https://www.sciencedirect.com/science/article/abs/pii/S0377221716301370)
+<details>
+  <summary>
+    <b>Robust mixed-integer linear programming models for the irregular strip packing problem</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221716301370"> Cherry et. al. - (2016) </a>
+  </summary>
+  <p align=justify>
+    Two-dimensional irregular strip packing problems are cutting and packing problems where small pieces have to be cut from a larger object, involving a non-trivial handling of geometry. Increasingly sophisticated and complex heuristic approaches have been developed to address these problems but, despite the apparently good quality of the solutions, there is no guarantee of optimality. Therefore, mixed-integer linear programming (MIP) models started to be developed. However, these models are heavily limited by the complexity of the geometry handling algorithms needed for the piece non-overlapping constraints. This led to pieces simplifications to specialize the developed mathematical models. In this paper, to overcome these limitations, two robust MIP models are proposed. In the first model (DTM) the non-overlapping constraints are stated based on direct trigonometry, while in the second model () pieces are first decomposed into convex parts and then the non-overlapping constraints are written based on nofit polygons of the convex parts. Both approaches are robust in terms of the type of geometries they can address, considering any kind of non-convex polygon with or without holes. They are also simpler to implement than previous models. This simplicity allowed to consider, for the first time, a variant of the models that deals with piece rotations. Computational experiments with benchmark instances show that outperforms both DTM and the best exact model published in the literature. New real-world based instances with more complex geometries are proposed and used to verify the robustness of the new models.
+  </p>
+</details>
 
-[Cherri, Carravilla, Toledo - (2016)](https://www.scielo.br/j/pope/a/DXgtyMFKv4KHqcQVw93W8LD/?lang=en#ModalTutors)
+<details>
+  <summary>
+    <b>A model-based heuristic for the irregular strip packing problem </b> &emsp;
+    <a href="https://www.scielo.br/j/pope/a/DXgtyMFKv4KHqcQVw93W8LD/?lang=en#ModalTutors"> Cherri, Carravilla, Toledo - (2016) </a>
+  </summary>
+  <p align=justify>
+    The irregular strip packing problem is a common variant of cutting and packing problems. Only a few exact methods have been proposed to solve this problem in the literature. However, several heuristics have been proposed to solve it. Despite the number of proposed heuristics, only a few methods that combine exact and heuristic approaches to solve the problem can be found in the literature. In this paper, a matheuristic is proposed to solve the irregular strip packing problem. The method has three phases in which exact mixed integer programming models from the literature are used to solve the sub-problems. The results show that the matheuristic is less dependent on the instance size and finds equal or better solutions in 87,5% of the cases in shorter computational times compared with the results of other models in the literature. Furthermore, the matheuristic is faster than other heuristics from the literature.
+  </p>
+</details>
 
-[Sato et al - (2016)](https://www.sciencedirect.com/science/article/pii/S2405896316328476)
+<details>
+  <summary>
+    <b>Study of the grid size impact on a raster based strip packing problem solution</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/pii/S2405896316328476"> Sato et al - (2016)  </a>
+  </summary>
+  <p align=justify>
+    Cutting and packing (C&P) is an important area of operational research and its problems arise in various industries such as: textile, wood, glass and shipbuilding. The main objective is to maximize the efficiency of a layout by rearranging and/or reassigning items inside containers in order to reduce costs and environmental impact. In this work, a raster solution to the bidimensional irregular strip packing problem, which consists of placing irregular shapes items inside a single rectangular container with variable length, is studied. In raster methods, the selection of the grid size is very important to the outcome of the algorithm. It influences the size of the search space, the overlap algorithm efficiency, as well as the memory requirements of the packing algorithm. An analysis of the impact of the choice of grid size is performed using 15 benchmark cases from the literature and, through careful observation of such test results, a simple rule to define the grid size is suggested.
+  </p>
+</details>
 
-[Rodrigues, Toledo - (2017)](https://www.tandfonline.com/doi/abs/10.1080/0951192X.2015.1036522)
+<details>
+  <summary>
+    <b>A clique covering MIP model for the irregular strip packing problem</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0305054816302702"> Rodrigues, Toledo - (2017) </a>
+  </summary>
+  <p align=justify>
+    The irregular strip packing problem consists in the cutting of a set of two-dimensional pieces from an object of fixed width using the minimum possible length. Despite its economic importance for many industries, few exact studies have addressed this problem. Recently, a mixed integer programming model in which pieces are placed on a grid has been proposed. Although the model has proved the optimality for some large instances, it has a large number of non-overlap constraints, which grows quickly according to the discretization resolution and number of distinct pieces. This paper proposes a clique covering model to reduce the number of constraints and improve the linear relaxation. The model has outperformed the previous model in most evaluated instances and obtained an optimal solution for instances with up to 25 pieces (22 distinct pieces) subject to grid discretization.
+  </p>
+</details>
 
-[Amaro Junior, Pinheiro, Coelho - (2017)](https://www.hindawi.com/journals/mpe/2017/1670709/)
+<details>
+  <summary>
+    <b>A Parallel Biased Random-Key Genetic Algorithm with Multiple Populations Applied to Irregular Strip Packing Problems</b> &emsp;
+    <a href="https://onlinelibrary.wiley.com/doi/10.1155/2017/1670709"> Amaro Junior - (2017) </a>
+  </summary>
+  <p align=justify>
+    The irregular strip packing problem (ISPP) is a class of cutting and packing problem (C&P) in which a set of items with arbitrary formats must be placed in a container with a variable length. The aim of this work is to minimize the area needed to accommodate the given demand. ISPP is present in various types of industries from manufacturers to exporters (e.g., shipbuilding, clothes, and glass). In this paper, we propose a parallel Biased Random-Key Genetic Algorithm (µ-BRKGA) with multiple populations for the ISPP by applying a collision-free region (CFR) concept as the positioning method, in order to obtain an efficient and fast layout solution. The layout problem for the proposed algorithm is represented by the placement order into the container and the corresponding orientation. In order to evaluate the proposed (µ-BRKGA) algorithm, computational tests using benchmark problems were applied, analyzed, and compared with different approaches.
+  </p>
+</details>
 
-[Peralta, Andretta, Oliveira - (2018)](https://www.scielo.br/j/pope/a/DXgtyMFKv4KHqcQVw93W8LD/?lang=en#ModalTutors)
+<details>
+  <summary>
+    <b>Solving irregular strip packing problems with free rotations using separation lines </b> &emsp;
+    <a href="https://www.scielo.br/j/pope/a/RcXzqWKwBnL7QhcgkgNyZPv/?format=pdf&lang=en"> Peralta, Andretta, Oliveira - (2018)  </a>
+  </summary>
+  <p align=justify>
+    Solving nesting problems or irregular strip packing problems is to position polygons on
+a fixed width and unlimited length strip, obeying polygon integrity containment constraints and non-
+overlapping constraints, in order to minimize the used length of the strip. To ensure non-overlapping, we
+use separation lines, i.e., straight lines that separate polygons. We present a nonlinear programming model
+that considers free rotations of the polygons and of the separation lines. This model uses a considerable
+smaller number of variables than the few other approaches proposed in the literature. We use the nonlinear
+programming solver IPOPT (an algorithm of interior points type), which is part of COIN-OR. Computa-
+tional tests were run using established benchmark instances and the results were compared with the ones
+obtained with other methodologies in the literature that use free rotations.
+  </p>
+</details>
 
-[Cherri, Cherri, Soler - (2018)](https://link.springer.com/article/10.1007/s10898-018-0638-x)
+<details>
+  <summary>
+    <b>Mixed integer quadratically-constrained programming model to solve the irregular strip packing problem with continuous rotations</b> &emsp;
+    <a href="https://link.springer.com/article/10.1007/s10898-018-0638-x"> Cherri, Cherri, Soler - (2018) </a>
+  </summary>
+  <p align=justify>
+    The irregular strip packing problem consists of cutting a set of convex and non-convex two-dimensional polygonal pieces from a board with a fixed height and infinite length. Owing to the importance of this problem, a large number of mathematical models and solution methods have been proposed. However, only few papers consider that the pieces can be rotated at any angle in order to reduce the board length used. Furthermore, the solution methods proposed in the literature are mostly heuristic. This paper proposes a novel mixed integer quadratically-constrained programming model for the irregular strip packing problem considering continuous rotations for the pieces. In the model, the pieces are allocated on the board using a reference point and its allocation is given by the translation and rotation of the pieces. To reduce the number of symmetric solutions for the model, sets of symmetry-breaking constraints are proposed. Computational experiments were performed on the model with and without symmetry-breaking constraints, showing that symmetry elimination improves the quality of solutions found by the solution methods. Tests were performed with instances from the literature. For two instances, it was possible to compare the solutions with a previous model from the literature and show that the proposed model is able to obtain numerically accurate solutions in competitive computational times.
+  </p>
+</details>
 
 [Sato, et. al. - (2019)](https://www.sciencedirect.com/science/article/abs/pii/S0377221719304837)
 
