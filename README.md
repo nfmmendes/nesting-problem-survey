@@ -780,8 +780,8 @@ model and provide the optimal solution for up to ten instances not proved in the
 
 <details>
   <summary>
-    <b>A Hybrid Reinforcement Learning Algorithm for 2D Irregular Packing Problems </b> &emsp;
-    <a href="https://www.mdpi.com/2227-7390/11/2/327"> Fang et. al. - (2023) </a>
+    <b>A reinforcement learning algorithm for the 2D-rectangular strip packing proble</b> &emsp;
+    <a href="https://iopscience.iop.org/article/10.1088/1742-6596/2181/1/012002/pdf"> Zhao, Hao, Fang - (2021) </a>
   </summary>
   <p align=justify>
     Packing problems, also known as nesting problems or bin packing problems, are classic and popular NP-hard problems with high computational complexity. Inspired by classic reinforcement learning (RL), we established a mathematical model for two-dimensional (2D) irregular-piece packing combined with characteristics of 2D irregular pieces. An RL algorithm based on Monte Carlo learning (MC), Q-learning, and Sarsa-learning is proposed in this paper to solve a 2D irregular-piece packing problem. Additionally, mechanisms of reward–return and strategy-update based on piece packing were designed. Finally, the standard test case of irregular pieces was used for experimental testing to analyze the optimization effect of the algorithm. The experimental results show that the proposed algorithm can successfully realize packing of 2D irregular pieces. A similar or better optimization effect can be obtained compared to some classical heuristic algorithms. The proposed algorithm is an early attempt to use machine learning to solve 2D irregular packing problems. On the one hand, our hybrid RL algorithm can provide a basis for subsequent deep reinforcement learning (DRL) to solve packing problems, which has far-reaching theoretical significance. On the other hand, it has practical significance for improving the utilization rate of raw materials and broadening the application field of machine learning.
@@ -800,8 +800,8 @@ model and provide the optimal solution for up to ten instances not proved in the
 
 <details>
   <summary>
-    <b>A reinforcement learning algorithm for the 2D-rectangular strip packing proble</b> &emsp;
-    <a href="https://iopscience.iop.org/article/10.1088/1742-6596/2181/1/012002/pdf"> Zhao, Hao, Fang - (2021) </a>
+    <b>A Hybrid Reinforcement Learning Algorithm for 2D Irregular Packing Problems </b> &emsp;
+    <a href="https://www.mdpi.com/2227-7390/11/2/327"> Fang et. al. - (2023) </a>
   </summary>
   <p align=justify>
     Packing problems, also known as nesting problems or bin packing problems, are classic and popular NP-hard problems with high computational complexity. Inspired by classic reinforcement learning (RL), we established a mathematical model for two-dimensional (2D) irregular-piece packing combined with characteristics of 2D irregular pieces. An RL algorithm based on Monte Carlo learning (MC), Q-learning, and Sarsa-learning is proposed in this paper to solve a 2D irregular-piece packing problem. Additionally, mechanisms of reward–return and strategy-update based on piece packing were designed. Finally, the standard test case of irregular pieces was used for experimental testing to analyze the optimization effect of the algorithm. The experimental results show that the proposed algorithm can successfully realize packing of 2D irregular pieces. A similar or better optimization effect can be obtained compared to some classical heuristic algorithms. The proposed algorithm is an early attempt to use machine learning to solve 2D irregular packing problems. On the one hand, our hybrid RL algorithm can provide a basis for subsequent deep reinforcement learning (DRL) to solve packing problems, which has far-reaching theoretical significance. On the other hand, it has practical significance for improving the utilization rate of raw materials and broadening the application field of machine learning.
