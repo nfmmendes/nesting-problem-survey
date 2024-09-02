@@ -179,30 +179,115 @@ To reduce the complexity of the nesting problem, pairwise clustering is introduc
 <details>
   <summary>
     <b>A random-key genetic algorithm for solving the nesting problem</b> &emsp;
-    <a href="https://www.tandfonline.com/doi/abs/10.1080/0951192X.2015.1036522"> Pinheiro, Amaro Junior, Saraiva - (2061) </a>
+    <a href="https://www.tandfonline.com/doi/abs/10.1080/0951192X.2015.1036522"> Pinheiro, Amaro Junior, Saraiva - (2016) </a>
   </summary>
   <p align=justify>
     This article presents a random-key genetic algorithm (RKGA) for the nesting problem, a particular case of cutting and packing problems in which a collection of items (or polygons) has to be packed onto a rectangular object with the aim of minimising its length. In general, our approach prescribes the integration of the aforementioned metaheuristic and well-known placement rules (e.g. bottom-left). Furthermore, a shrinking algorithm – that operates within the RKGA – is also proposed to improve partial solutions. To assess the potentials of the proposed methodology, computational experiments performed on a set of difficult benchmark instances of the nesting problem are discussed here for evaluation purposes, showing that our algorithm is able to compete with previous successful studies in some particular problem instances.
   </p>
 </details>
 
-[Martins, et. al. - (2016)](https://www.tandfonline.com/doi/full/10.1080/0951192X.2015.1033018?scroll=top&needAccess=true)
+<details>
+  <summary>
+    <b>A pairwise exact placement algorithm for the irregular nesting problem </b> &emsp;
+    <a href="https://www.tandfonline.com/doi/full/10.1080/0951192X.2015.1033018"> Sato, Martins, Tsuzuki - (2016) </a>
+  </summary>
+  <p align=justify>
+    The irregular nesting problem, a subset of cutting and packing problems, aims to minimise waste or unoccupied space inside a container and is found in wood, glass, shipbuilding and textile industries. The problem consists in finding the most compact arrangement of two-dimensional items inside a rectangular container without overlap. The length of the container is variable and up to four different orientations are allowed for each item. Overlap is avoided by using a constructive placement heuristic which places items one at a time, without colliding with other items. The proposed algorithm in this work uses a pairwise placement strategy in which one item is always positioned in exact fitting or sliding placements, which are positions where the item movement is restricted. A simulated annealing algorithm controls the placement sequence and guides the search over the solution space. Several placement heuristics were proposed and tests were conducted with benchmark instances. Results show improvement in efficiency and speed over previous works in some cases.
+  </p>
+</details>
 
-[Pinto, et. al - (2016)](https://www.inderscienceonline.com/doi/epdf/10.1504/IJBEX.2016.075594)
+<details>
+  <summary>
+    <b>Heuristic methods for the leather nesting problem in the automotive industry</b> &emsp;
+    <a href="https://www.inderscienceonline.com/doi/epdf/10.1504/IJBEX.2016.075594">  Pinto, et. al - (2016) </a>
+  </summary>
+  <p align=justify>
+    In this paper, we address a real leather nesting problem (LNP) with holes and quality zones that arises in the automotive industry. We describe two approaches for the solution of the LNP. The first approach consists in a constructive heuristic, while the second relies on local search methods. The constructive heuristic is based on a simulation of the positioning of a piece so as to evaluate its fitness within the hide and within the current layout. The later approach suggested in this paper is based in a local search method whose neighbourhood structure operates on cutting patterns. In order to improve this procedure, we also describe an improvement of our constructive heuristic to apply it at each iteration of the local search procedure. The proposed methods were implemented and tested on real instances of the automotive industry. The obtained results for both heuristics illustrate the adequacy and the potential of the proposed approaches.
+  </p>
+</details>
 
-[Mundim, Andretta, Queiroz - (2017)](https://www.sciencedirect.com/science/article/abs/pii/S0957417417302233)
+<details>
+  <summary>
+    <b>A biased random key genetic algorithm for open dimension nesting problems using no-fit raster</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417417302233"> Mundim, Andretta, Queiroz - (2017) </a>
+  </summary>
+  <p align=justify>
+    We consider two NP-hard open dimension nesting problems for which a set of items has to be packed without overlapping into a two-dimensional bin in order to minimize one or both dimensions of this bin. These problems are faced by real-life applications, such as textile, footwear and automotive industries. Therefore, there is a need for specialized systems to help in a decision making process. Bearing this in mind, we derive new concepts as the no-fit raster, which can be used to check overlapping between any two-dimensional generic-shaped items. We also use a biased random key genetic algorithm to determine the sequence in which items are packed. Once the sequence of items is determined, we propose two heuristics based on bottom-left moves and the no-fit raster concept, which are in turn used to arrange these items into the given bin observing the objective criteria. As far as we know, the problem with two-open dimensions is being solved for the first time in the context of nesting problems and we present the first whole quadratic model for this problem. Computational experiments conducted on benchmark instances from the literature (some from the textile industry and others including circles, convex, and non-convex polygons) show the competitiveness of the approaches developed as they were able to calculate the best results for 74.14% of the instances. It can be observed that these results show new directions in terms of solving nesting problems whereby approaches can be coupled in existing intelligent systems to support decision makers in this field.
+  </p>
+</details>
 
-[Mundim et. al. - (2017)](https://www.tandfonline.com/doi/abs/10.1080/00207543.2017.1394598)
+<details>
+  <summary>
+    <b>A general heuristic for two-dimensional nesting problems with limited-size containers</b> &emsp;
+    <a href="https://www.tandfonline.com/doi/abs/10.1080/00207543.2017.1394598"> Mundim et. al. - (2017) </a>
+  </summary>
+  <p align=justify>
+    Cutting raw-material into smaller parts is a fundamental phase of many production processes. These operations originate raw-material waste that can be minimised. These problems have a strong economic and ecological impact and their proper solving is essential to many sectors of the economy, such as the textile, footwear, automotive and shipbuilding industries, to mention only a few. Two-dimensional (2D) nesting problems, in particular, deal with the cutting of irregularly shaped pieces from a set of larger containers, so that either the waste is minimised or the value of the pieces actually cut from the containers is maximised. Despite the real-world practical relevance of these problems, very few approaches have been proposed capable of dealing with concrete characteristics that arise in practice. In this paper, we propose a new general heuristic (H4NP) for all 2D nesting problems with limited-size containers: the Placement problem, the Knapsack problem, the Cutting Stock problem, and the Bin Packing problem. Extensive computational experiments were run on a total of 1100 instances. H4NP obtained equal or better solutions for 73% of the instances for which there were previous results against which to compare, and new benchmarks are proposed.
+  </p>
+</details>
 
-[Wang, Hanselman, Gounaris - (2018)](https://link.springer.com/article/10.1007/s10898-018-0637-y)
 
-[Cherri et. al. - (2019)](https://www.sciencedirect.com/science/article/pii/S2214716019300594)
+<details>
+  <summary>
+    <b>A customized branch-and-bound approach for irregular shape nesting</b> &emsp;
+    <a href="https://link.springer.com/article/10.1007/s10898-018-0637-y"> Wang, Hanselman, Gounaris - (2018) </a>
+  </summary>
+  <p align=justify>
+    We study the Nesting Problem, which aims to determine a configuration of a set of irregular shapes within a rectangular sheet of material of fixed width, such that no overlap among the shapes exists, and such that the length of the sheet is minimized. When both translation and rotation of the shapes are allowed, the problem can be formulated as a nonconvex quadratically constrained programming model that approximates each shape by a set of inscribed circles and enforces that circle pairs stemming from different shapes do not overlap. However, despite many recent advances in today’s global optimization solvers, solving this nonconvex model to guaranteed optimality remains extremely challenging even for the state-of-the-art codes. In this paper, we propose a customized branch-and-bound approach to address the Nesting Problem to guaranteed optimality. Our approach utilizes a novel branching scheme to deal with the reverse convex quadratic constraints in the quadratic model and incorporates a number of problem-specific algorithmic tweaks. Our computational studies on a suite of 64 benchmark instances demonstrate the customized algorithm’s effectiveness and competitiveness over the use of general-purpose global optimization solvers, including for the first time the ability to find global optimal nestings featuring five polygons under free rotation.
+  </p>
+</details>
 
-[Kierkosz, Luczak - (2019)](https://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.desklight-335f3bdb-e516-4d4f-a360-288a78635757)
+<details>
+  <summary>
+    <b>Optimality in nesting problems: New constraint programming models and a new global constraint for non-overlap</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/pii/S2214716019300594"> Cherri et. al. - (2019) </a>
+  </summary>
+  <p align=justify>
+    In two-dimensional nesting problems (irregular packing problems) small pieces with irregular shapes must be packed in large objects. A small number of exact methods have been proposed to solve nesting problems, typically focusing on a single problem variant, the strip packing problem. There are however several other variants of the nesting problem which were identified in the literature and are very relevant in the industry.
+  </p>
+  <p align=justify>
+In this paper, constraint programming (CP) is used to model and solve all the variants of irregular cutting and packing problems proposed in the literature. Three approaches, which differ in the representation of the variable domains, in the way they deal with the core constraints and in the objective functions, are the basis for the three models proposed for each variant of the problem. The non-overlap among pieces, which must be enforced for all the problem variants, is guaranteed through the new global constraint NoOverlapin one of the proposed approaches.
+  </p>
+  
+  <p align=justify>
+Taking the benchmark instances for the strip-packing problem, new instances were generated for each problem variant. Extensive computational experiments were run with these problem instances from the literature to evaluate the performance of each approach applied to each problem variant. The models based on the global constraint NoOverlap performed consistently better for all variants due to the increased propagation and to the low memory usage.
+  </p>
 
-[Amaro Junior, et al - (2020)](https://ieeexplore.ieee.org/abstract/document/9185794)
+  <p align=justify>
+The performance of the CP model for the strip packing problem with the global constraint NoOverlap was then compared with the Dotted Board with Rotations using larger instances from the literature. The experiments show that the CP model with global constraint NoOverlap can quickly find good quality solutions in shorter computational times even for large instances.
+  </p>
+</details>
 
-[Chehrazad, Roose, Wauters - (2022)](https://www.sciencedirect.com/science/article/abs/pii/S0377221721008936)
+
+<details>
+  <summary>
+    <b> A one-pass heuristic for nesting problems </b> &emsp;
+    <a href="https://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.desklight-335f3bdb-e516-4d4f-a360-288a78635757"> Kierkosz, Luczak - (2019) </a>
+  </summary>
+  <p align=justify>
+    A two-dimensional cutting (packing) problem with items of irregular shape and rectangular sheets is studied. Three types of problems are considered: single-sheet problems without restrictions on the number of elements, single-sheet problems with restrictions on the number of elements, and cutting stock problems (restricted number of items and unrestricted number of sheets). The aim of the optimization is to maximize the total area of the elements cut from a single plate or to minimize the number of sheets used in cutting. A one-pass algorithm is proposed which uses the popular concept of a no-fit polygon (NFP). The decision on whether an item is cut from a sheet in a given step depends on the value of a fitting function. The fitting function depends on the change in the NFP of individual items. We test eight different criteria for the evaluation of partial solutions. On the basis of numerical experiments, the algorithm that generates the best solution for each of the considered problem types is selected. The calculation results for these algorithms are compared with results obtained by other authors.
+  </p>
+</details>
+
+<details>
+  <summary>
+    <b>A biased random-key genetic algorithm using dotted board model for solving two-dimensional irregular strip packing problems</b> &emsp;
+    <a href="https://ieeexplore.ieee.org/abstract/document/9185794">  Amaro Junior, et al - (2020) </a>
+  </summary>
+  <p align=justify>
+    The irregular strip packing problem (ISPP) is a combinatorial optimisation problem that has applicability in several industrial processes since it aims for the efficient use of material. Most of the techniques reported in the literature for solving the ISPP employ metaheuristics as they can cope with complex requirements that prevent the use of exact model formulations. This paper presents a biased random-key genetic algorithm (BRKGA) that uses the dotted board model to compute the fitnesses of candidate solutions aiming for the minimisation of the height of the large object. The algorithm allows the pieces to rotate in order to achieve better layouts. Computational experiments using instances from the literature were conducted to demonstrate the efficiency of the proposed method, with promising results.
+  </p>
+</details>
+
+<details>
+  <summary>
+    <b>A fast and scalable bottom-left-fill algorithm to solve nesting problems using a semi-discrete representation</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221721008936"> Chehrazad, Roose, Wauters - (2022) </a>
+  </summary>
+  <p align=justify>
+    We present a fast algorithm to solve nesting problems based on a semi-discrete representation of both the 2D non-convex pieces and the strip. The pieces and the strip are represented by a set of equidistant vertical line segments. The discretization algorithm uses a sweep-line method and applies minimal extensions to the line segments of a piece to ensure that non-overlapping placement of the segments, representing two pieces, cannot cause overlap of the original pieces. We implemented a bottom-left-fill greedy placement procedure, using an optimised ordering of the segments overlap tests. The C++ implementation of our algorithm uses appropriate data structures that allow fast execution. It executes the bottom-left-fill algorithm for typical ESICUP data sets in a few milliseconds, even when rotation of the pieces is considered, and thus provides a suitable ‘building block’ for integration in metaheuristics. Moreover, we show that the algorithm scales well when the number of pieces increases.
+  </p>
+</details>
 
 <details>
   <summary>
@@ -214,11 +299,35 @@ To reduce the complexity of the nesting problem, pairwise clustering is introduc
   </p>
 </details>
 
-[Sato, et. al - (2023)](https://www.sciencedirect.com/science/article/abs/pii/S0957417423002178)
+<details>
+  <summary>
+    <b>A separation and compaction algorithm for the two-open dimension nesting problem using penetration-fit raster and obstruction map</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417423002178">  </a>
+  </summary>
+  <p align=justify>
+    Nesting Problems, which are important subjects in the cutting and packing field, involve convex and nonconvex polygons and are common in several industries. These irregular open dimensional problems have been studied for decades, particularly the variant with one open dimension. However, in real-world applications, situations that are better suited to a two open dimensional model may arise and, in this sense, the literature is very limited. We here propose new separation and compaction algorithms for two-open dimension nesting problem. The paper develops an adaptation of the no-fit polygon to consider the penetration depth of pieces. The approach is based on an iterative compaction scheme, in which the key step is an obstruction map-based separation algorithm. The algorithms proposed found optimal solutions for artificial instances with up to 28 items within a small runtime. The results of benchmark instances indicate that the new algorithm is competitive when compared with other literature algorithms. It improved 14 of 15 benchmark instances when considering literature approaches on two open dimensions. In addition, the new algorithm achieved better occupation for some open dimension instances than the state of the art.
+  </p>
+</details>
 
-[Guo, et al - (2023)](https://www.sciencedirect.com/science/article/abs/pii/S0957417423010503)
+<details>
+  <summary>
+    <b>Efficient 2D irregular layout by vector superposition NFP and mixed-integer programming</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417423010503"> Guo, et al - (2023)  </a>
+  </summary>
+  <p align=justify>
+    As a typical combinatorial optimization problem, two-dimensional (2D) irregular layout is a common problem in the engineering field. No-fit polygon (NFP) is a common geometric tool for solving layout problems. Although it is necessary to calculate NFP frequently in the process of layout, the search efficiency of the NFP generation algorithm is affected. The existing unfitting polygon algorithms have difficulties in dealing with complex contours, especially irregular contours with cavities. The large-scale layout process takes the long time with the low material utilization. A vector superposition NFP (VS-NFP) method is proposed in this paper to improve the solution efficiency of 2D irregular layout problems with complex contours. Based on the VS-NFP, an improved mixed integer programming (MIP) model is built. The model increases compression constraints for high solution search efficiency. A hybrid algorithm based on the VS-NFP and MIP is proposed to solve the problem. Comparing with the existing methods, the proposed method shortens the search time and improves the material utilization. The proposed method is verified in the application of large-scale layout problems.
+  </p>
+</details>
 
-[Nascimento, et al - (2024)](https://www.sciencedirect.com/science/article/pii/S0377221724001784)
+<details>
+  <summary>
+    <b>Optimal decomposition approach for solving large nesting and scheduling problems of additive manufacturing systems</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/pii/S0377221724001784">  Nascimento, et al - (2024) </a>
+  </summary>
+  <p align=justify>
+    This paper addresses the challenges associated with nesting and production scheduling in additive manufacturing (AM). The problem studied consists of grouping a set of parts into batches, which are then assigned to and sequenced across the available machines, guaranteeing the production of all parts. This work stands out by proposing exact methods for the AM nesting and scheduling problem considering irregular-shaped parts with specific release dates, processing times, and due dates, with the aim of minimizing the cumulative tardiness. The proposed approaches include two logic-based Benders decompositions: one combining Mixed Integer Programming (MIP) and Constraint Programming (CP), and the other relying solely on CP. To deal with the sub-problems, a strategic procedure was developed to reduce the solution space while maintaining low resolution times per iteration. Problem-specific cuts are also generated to improve the efficiency of these approaches. Computational experiments show that both decompositions significantly outperform a prior monolithic CP model, with the decomposition based solely on CP yielding the best results. Moreover, the results show that this approach has the potential to achieve similar computational performance of non-exact approaches that are currently considered state-of-the-art. A set of instances is provided to serve as a benchmark for future studies.
+  </p>
+</details>
 
 ## Strip packing
 
