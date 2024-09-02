@@ -465,8 +465,31 @@ for Nesting Problems </b> &emsp;
 
 ## Auxiliar algorithms 
 ### Non-fit polygon generation
-[Cuninghame-Gree - (1989)](https://www.newscientist.com/article/mg12316773-700/)
 
-[Berg et al. - (1997)](https://link.springer.com/book/10.1007/978-3-662-04245-8?utm_medium=referral&utm_source=google_books&utm_campaign=3_pier05_buy_print&utm_content=en_08082017)
+<details>
+  <summary>
+    <b>Geometry, shoemaking and the Milk Tray problem</b> &emsp;
+    <a href="https://www.newscientist.com/article/mg12316773-700/"> Cuninghame-Gree - (1989) </a>
+  </summary>
+</details>
 
-[Luo, Hao - (2022)](https://www.mdpi.com/2227-7390/10/16/2941)
+
+<details>
+  <summary>
+    <b> Computational Geometry </b> &emsp;
+    <a href="https://link.springer.com/book/10.1007/978-3-662-04245-8?utm_medium=referral&utm_source=google_books&utm_campaign=3_pier05_buy_print&utm_content=en_08082017"> Berg et al. - (1997) </a>
+  </summary>
+  <p align=justify>
+    Computational geometry emerged from the field of algorithms design and anal­ ysis in the late 1970s. It has grown into a recognized discipline with its own journals, conferences, and a large community of active researchers. The suc­ cess of the field as a research discipline can on the one hand be explained from the beauty of the problems studied and the solutions obtained, and, on the other hand, by the many application domains-computer graphics, geographic in­ formation systems (GIS), robotics, and others-in which geometric algorithms playafundamental role. For many geometric problems the early algorithmic solutions were either slow or difficult to understand and implement. In recent years a number of new algorithmic techniques have been developed that improved and simplified many of the previous approaches. In this textbook we have tried to make these modem algorithmic solutions accessible to a large audience. The book has been written as a textbook for a course in computational geometry, but it can also be used for self-study. 
+  </p>
+</details>
+
+<details>
+  <summary>
+    <b>Improved Sliding Algorithm for Generating No-Fit Polygon in the 2D Irregular Packing Problem</b> &emsp;
+    <a href="https://www.mdpi.com/2227-7390/10/16/2941"> Luo, Hao - (2022) </a>
+  </summary>
+  <p align=justify>
+  This paper introduces an efficient and robust sliding algorithm for the creation of no-fit polygons. The improved algorithm can cope with complex cases and is given an implementation in detail. The proposed concept of a touching group can simplify the judging process when recognizing the potential translation vector for an orbital polygon. In addition, the generation of the no-fit polygon only involves three main steps based on the proposed concept. The proposed algorithm has a mechanism that searches other start positions to generate a complete no-fit polygon for handling complex cases. To improve the efficiency, many acceleration strategies have been proposed, such as point exclusion strategy and point inclusion test. The robust and efficient performance of the algorithm is tested by well-known benchmark instances and degenerate and complex cases, such as holes, interlocking concavities and jigsaw-type pieces. Experimental results show that the proposed algorithm can produce complete no-fit polygons for complex cases, and acceleration strategies can reduce the creation time of no-fit polygon on benchmark instances by more than sixteen percent on average.
+  </p>
+</details>
