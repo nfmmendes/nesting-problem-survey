@@ -5,12 +5,15 @@ Just some articles that deal with nesting problem (Irregular Knapsack Problem)
   <summary>
     <b>(Base Paper) Algorithms for nesting with defects </b> &emsp;<a  href="https://www.sciencedirect.com/science/article/pii/S0166218X12001308#:~:text=The%20nesting%20problem%20is%20an,master%20surface%20could%20contain%20defects."> Baldacci et. al. (2014)</a>
   </summary>
-  
+ <p align=justify>
   The nesting problem is an irregular two-dimensional cutting problem where the shapes of the pieces to cut and the master surfaces are irregular in shape and different in size. In particular, we consider nesting problems where the master surface could contain defects. Some of them can be accepted (i.e., incorporated) in certain types of pieces, while other defected areas must be avoided. The problems considered in this paper arise in the leather garment and furniture industry.
-
+ </p>
+  <p align=justify>
 First, we solve nesting problems involving a single master surface (Irregular Single Knapsack Problem) for which we propose three different constructive (placement) procedures for the pieces. These procedures generate sets of cutting patterns, which are global configurations of the pieces, as sets on the master surface, and are included in an iterative algorithm motivated by a Lagrangean relaxation approach, where the Lagrangean dual seeds a Guided Local Search hybrid. Finally, we embed this iterative algorithm into a heuristic for solving the problem of cutting more than one master surface for producing all of the requested pieces, minimizing the total waste (Irregular Multiple Stock-Size Cutting Stock Problem).
-
+</p>
+  <p align=justify>
 We test our algorithms on three sets of test problem instances. In order to validate the new heuristics for the nesting problem involving a single master surface we use a set of well-known irregular strip packing instances from the literature, where defects are not considered. The new heuristics for the nesting problem involving multiple master surfaces are then tested on a set of rectangular bin-packing instances and on a set of real-world instances obtained from leather garment and furniture industries with defects in the master surface.
+</p>
 </details>
 
 
@@ -21,6 +24,7 @@ We test our algorithms on three sets of test problem instances. In order to vali
   <b>The geometry of nesting problems: A tutorial</b> &emsp;
   <a href="https://paginas.fe.up.pt/~balobo/PPExt/Papers/O09.pdf"> Bennell, Oliveira - (2008) </a>
 </summary>
+  <p align=justify>
 Cutting and packing problems involving irregular shapes is an important problem variant with a wide variety of indus-
 trial applications. Despite its relevance to industry, research publications are relatively low when compared to other cutting
 and packing problems. One explanation offered is the perceived difficulty and substantial time investment of developing a
@@ -29,6 +33,7 @@ geometric methodologies currently employed by researchers in cutting and packing
 designed to be an exhaustive survey of the literature but instead will draw on the literature to illustrate the theory and
 implementation of the approaches. We aim to provide a sufficiently instructive description to equip new and current
 researchers in the area to select the most appropriate methodology for their needs.
+  </p>
 </details>
 
 <details>
@@ -36,7 +41,9 @@ researchers in the area to select the most appropriate methodology for their nee
       <b> A Tutorial in Irregular Shape Packing Problems </b> &emsp;
       <a href="https://www.jstor.org/stable/40206728"> Bennell, Oliveira - (2009) </a> 
   </summary>
+  <p align=justify>
   Cutting and packing problems have been a core area of research for many decades. Irregular shape packing is one of the most recent variants to be widely researched and its history extends over 40 years. The evolution of solution approaches to this problem can be attributed to increased computer power and advances in geometric techniques as well as more sophisticated and insightful algorithm design. In this paper we will focus on the latter. Our aim is not to give a chronological account or an exhaustive review, but to draw on the literature to describe and evaluate the core approaches. Irregular packing is combinatorial and as a result solution methods are heuristic, save a few notable exceptions. We will explore different ways of representing the problem and mechanisms for moving between solutions. We will also propose where we see the future challenges for researchers in this area.
+  </p>
 </details>
 
 ## Surveys
@@ -46,7 +53,9 @@ researchers in the area to select the most appropriate methodology for their nee
     <b>Irregular packing problems: A review of mathematical models </b> &emsp;
     <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221719303820">Leao, et. al. (2020)</a>
   </summary>
+  <p align=justify>
   Irregular packing problems (also known as nesting problems) belong to the more general class of cutting and packing problems and consist of allocating a set of irregular and regular pieces to larger rectangular or irregular containers, while minimizing the waste of material or space. These problems combine the combinatorial hardness of cutting and packing problems with the computational difficulty of enforcing the geometric non-overlap and containment constraints. Unsurprisingly, nesting problems have been addressed, both in the scientific literature and in real-world applications, by means of heuristic and metaheuristic techniques. However, more recently a variety of mathematical models has been proposed for nesting problems. These models can be used either to provide optimal solutions for nesting problems or as the basis of heuristic approaches based on them (e.g. matheuristics). In both cases, better solutions are sought, with the natural economic and environmental positive impact. Different modeling options are proposed in the literature. We review these mathematical models under a common notation framework, allowing differences and similarities among them to be highlighted. Some insights on weaknesses and strengths are also provided. By building this structured review of mathematical models for nesting problems, research opportunities in the field are proposed.
+  </p>
 </details>
 
 ## Nesting problem
