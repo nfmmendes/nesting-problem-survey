@@ -563,13 +563,35 @@ model and provide the optimal solution for up to ten instances not proved in the
 
 ## Irregular 2D Bin Packing 
 
+
 <details>
   <summary>
-    <b>An iteratively doubling binary search for the two-dimensional irregular multiple-size bin packing problem raised in the steel industry</b> &emsp;
-    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0305054823003404"> Yao et. al. (2024)  </a>
+    <b>Solving an optimization packing problem of circles and non-convex polygons with rotations into a multiply connected region</b> &emsp;
+    <a href="https://www.tandfonline.com/doi/abs/10.1057/jors.2011.41"> Stoyan, Zlotnik, Chugay - (2011)  </a>
   </summary>
   <p align=justify>
-    This paper examines the two-dimensional irregular multiple-size bin packing problem, where the goal is to pack all the given irregular pieces into bins of various sizes such that the total area of the used bins is minimized. Meanwhile, the irregular pieces include holes, and the bins can be irregular, also. This problem is raised in the steel industry considering the reuse of leftover material. An iteratively doubling binary search is proposed to solve this problem. Moreover, a binary search strategy is introduced to search the bin combination with minimum area, and an iteratively doubling strategy is utilized to control the search effort on each bin combination. Once the bins are identified, a first-fit bottom-left method is utilized to generate the initial position for each piece. An overlap minimization approach, which includes a local search by exchanging the positions of two pieces, is adapted to minimize the overlap in the initial solution. Experiment results on existing instances show that our approach could find a better solution than existing methods. Several instances representing different application scenarios are generated, and the results show our approach’s effectiveness and generality.
+    This paper deals with the packing problem of circles and non-convex polygons, which can be both translated and rotated into a strip with prohibited regions. Using the Φ-function technique, a mathematical model of the problem is constructed and its characteristics are investigated. Based on the characteristics, a solution approach to the problem is offered. The approach includes the following methods: an optimization method by groups of variables to construct starting points, a modification of the Zoutendijk feasible direction method to search for local minima and a special non-exhaustive search of local minima to find an approximation to a global minimum. A number of numerical results are given. The numerical results are compared with the best known ones.
+  </p>
+</details>
+
+<details>
+  <summary>
+    <b>An effective heuristic for the two-dimensional irregular bin packing problem</b> &emsp;
+    <a href="https://link.springer.com/article/10.1007/s10479-013-1341-4"> Lopez-Camacho, Ochoa - (2013)  </a>
+  </summary>
+  <p align=justify>
+    This paper proposes an adaptation, to the two-dimensional irregular bin packing problem of the Djang and Finch heuristic (DJD), originally designed for the one-dimensional bin packing problem. In the two-dimensional case, not only is it the case that the piece’s size is important but its shape also has a significant influence. Therefore, DJD as a selection heuristic has to be paired with a placement heuristic to completely construct a solution to the underlying packing problem. A successful adaptation of the DJD requires a routine to reduce computational costs, which is also proposed and successfully tested in this paper. Results, on a wide variety of instance types with convex polygons, are found to be significantly better than those produced by more conventional selection heuristics.
+  </p>
+</details>
+
+
+<details>
+  <summary>
+    <b>Construction heuristics for two-dimensional irregular shape bin packing with guillotine constraints</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221713003627"> Han et al. - (2013)  </a>
+  </summary>
+  <p align=justify>
+    The paper examines a new problem in the irregular packing literature that has many applications in industry: two-dimensional irregular (convex) bin packing with guillotine constraints. Due to the cutting process of certain materials, cuts are restricted to extend from one edge of the stock-sheet to another, called guillotine cutting. This constraint is common place in glass cutting and is an important constraint in two-dimensional cutting and packing problems. In the literature, various exact and approximate algorithms exist for finding the two dimensional cutting patterns that satisfy the guillotine cutting constraint. However, to the best of our knowledge, all of the algorithms are designed for solving rectangular cutting where cuts are orthogonal with the edges of the stock-sheet. In order to satisfy the guillotine cutting constraint using these approaches, when the pieces are non-rectangular, practitioners implement a two stage approach. First, pieces are enclosed within rectangle shapes and then the rectangles are packed. Clearly, imposing this condition is likely to lead to additional waste. This paper aims to generate guillotine-cutting layouts of irregular shapes using a number of strategies. The investigation compares three two-stage approaches: one approximates pieces by rectangles, the other two approximate pairs of pieces by rectangles using a cluster heuristic or phi-functions for optimal clustering. All three approaches use a competitive algorithm for rectangle bin packing with guillotine constraints. Further, we design and implement a one-stage approach using an adaptive forest search algorithm. Experimental results show the one-stage strategy produces good solutions in less time over the two-stage approach.
   </p>
 </details>
 
@@ -585,26 +607,6 @@ model and provide the optimal solution for up to ten instances not proved in the
 
 <details>
   <summary>
-    <b>GA and GWO algorithm for the special bin packing problem encountered in field of aircraft arrangement</b> &emsp;
-    <a href="https://www.sciencedirect.com/science/article/abs/pii/S1568494621009716">  Luo, Rao, Peng - (2022) </a>
-  </summary>
-  <p align=justify>
-    This paper addresses a special case of irregular bin packing problem which the irregular pieces with free rotation have to fill a large irregular stock sheet with defective regions while satisfying the special boundary constraint, i.e., the piece can protrude from the sheet so long as the key points in the piece’s interior lie within the container. The objective of this problem is to maximize the number of filled pieces. To our best knowledge, the piece must be placed completely inside the sheet for all packing problem tackled by published literature. Thus, existing approaches are not good solutions to this special packing problem. To achieve the goal of automated arrangement of pieces and maximize the space utilization, the genetic algorithm and grey wolf optimization algorithm are designed to solve it. The genetic algorithm adopts the elitism strategy for maintaining the portion of the best chromosomes. A new method of updating the main controlling parameter is applied for reinforcing the exploration ability of the grey wolf optimization. These two algorithms use a vector of pieces as the solution representation, and a novel heuristic algorithm decodes it to produce a layout. The proposed heuristic algorithm divides the process of packing into two stages with the objective of satisfying constraints and achieving good space utilization of sheet. Computational experiments show that the presented methods can solve this new kind of the packing problem very well.
-  </p>
-</details>
-
-<details>
-  <summary>
-    <b>An effective heuristic for the two-dimensional irregular bin packing problem</b> &emsp;
-    <a href="https://link.springer.com/article/10.1007/s10479-013-1341-4"> Lopez-Camacho, Ochoa - (2013)  </a>
-  </summary>
-  <p align=justify>
-    This paper proposes an adaptation, to the two-dimensional irregular bin packing problem of the Djang and Finch heuristic (DJD), originally designed for the one-dimensional bin packing problem. In the two-dimensional case, not only is it the case that the piece’s size is important but its shape also has a significant influence. Therefore, DJD as a selection heuristic has to be paired with a placement heuristic to completely construct a solution to the underlying packing problem. A successful adaptation of the DJD requires a routine to reduce computational costs, which is also proposed and successfully tested in this paper. Results, on a wide variety of instance types with convex polygons, are found to be significantly better than those produced by more conventional selection heuristics.
-  </p>
-</details>
-
-<details>
-  <summary>
     <b>Constructive procedures to solve 2-dimensional bin packing problems with irregular pieces and guillotine cuts</b> &emsp;
     <a href="https://www.sciencedirect.com/science/article/abs/pii/S0305048314001285"> Sykora, et. al - (2015)  </a>
   </summary>
@@ -613,15 +615,6 @@ model and provide the optimal solution for up to ten instances not proved in the
   </p>
 </details>
 
-<details>
-  <summary>
-    <b>Solving an optimization packing problem of circles and non-convex polygons with rotations into a multiply connected region</b> &emsp;
-    <a href="https://www.tandfonline.com/doi/abs/10.1057/jors.2011.41"> Stoyan, Zlotnik, Chugay - (2011)  </a>
-  </summary>
-  <p align=justify>
-    This paper deals with the packing problem of circles and non-convex polygons, which can be both translated and rotated into a strip with prohibited regions. Using the Φ-function technique, a mathematical model of the problem is constructed and its characteristics are investigated. Based on the characteristics, a solution approach to the problem is offered. The approach includes the following methods: an optimization method by groups of variables to construct starting points, a modification of the Zoutendijk feasible direction method to search for local minima and a special non-exhaustive search of local minima to find an approximation to a global minimum. A number of numerical results are given. The numerical results are compared with the best known ones.
-  </p>
-</details>
 
 <details>
   <summary>
@@ -635,41 +628,11 @@ model and provide the optimal solution for up to ten instances not proved in the
 
 <details>
   <summary>
-    <b>An iteratively doubling local search for the two-dimensional irregular bin packing problem with limited rotations</b> &emsp;
-    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0305054821002847">   </a>
-  </summary>
-  <p align=justify>
-    This paper proposes an iteratively doubling local search approach for the two-dimensional irregular bin packing problem (2DIRBPP) with limited rotations, whose objective is to pack a given set of irregular pieces into the minimum number of rectangular bins. The allowable angles of each piece are limited. To solve this problem, a waste least first decreasing strategy is introduced to assign the piece to the bins. A simple greedy local search approach by moving the pieces from one bin to another is utilized to improve the solution. We adapt an overlap minimization approach to solving the one bin placement problem. The classical bottom-left method is utilized to generate the initial position for each piece, and the random local search by exchanging the positions of two pieces is used to minimize the overlap. Moreover, a novel warm start and an iteratively doubling search strategy are proposed to speed up the search process. The standard benchmark results show that our approach improves the results for most of the instances in the literature.
-  </p>
-</details>
-
-<details>
-  <summary>
     <b>Jostle heuristics for the 2D-irregular shapes bin packing problems with free rotation</b> &emsp;
     <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925527317302980"> Abeysooriya, Bennell, Martinez-Sykora - (2018)  </a>
   </summary>
   <p align=justify>
     The paper investigates the two-dimensional irregular packing problem with multiple homogeneous bins (2DIBPP). The literature on irregular shaped packing problems is dominated by the single stock sheet strip packing problem. However, in reality manufacturers are cutting orders over multi-stock sheets. Despite its greater relevance, there are only a few papers that tackle this problem in the literature. A multi-stock sheet problem has two decision components; the allocation of pieces to stock sheets and the layout design for each stock sheet. In this paper, we propose a heuristic method that addresses both the allocation and placement problems together based on the Jostle algorithm. Jostle was first applied to strip packing. In order to apply Jostle to the bin packing problem we modify the placement heuristic. In addition we improve the search capability by introducing a diversification mechanism into the approach. Furthermore, the paper presents alternative strategies for handling rotation of pieces, which includes a restricted set of angles and unrestricted rotation. Very few authors permit unrestricted rotation of pieces, despite this being a feature of many problems where the material is homogeneous. Finally, we investigate alternative placement criteria and show that the most commonly applied bottom left criteria does not perform as well as other options. The paper evaluates performance of each algorithm using different sets of instances considering convex and non-convex shapes. Findings of this study reveal that the proposed algorithms can be applied to different variants of the problem and generate significantly better results.
-  </p>
-</details>
-
-<details>
-  <summary>
-    <b>Construction heuristics for two-dimensional irregular shape bin packing with guillotine constraints</b> &emsp;
-    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221713003627"> Han et al. - (2013)  </a>
-  </summary>
-  <p align=justify>
-    The paper examines a new problem in the irregular packing literature that has many applications in industry: two-dimensional irregular (convex) bin packing with guillotine constraints. Due to the cutting process of certain materials, cuts are restricted to extend from one edge of the stock-sheet to another, called guillotine cutting. This constraint is common place in glass cutting and is an important constraint in two-dimensional cutting and packing problems. In the literature, various exact and approximate algorithms exist for finding the two dimensional cutting patterns that satisfy the guillotine cutting constraint. However, to the best of our knowledge, all of the algorithms are designed for solving rectangular cutting where cuts are orthogonal with the edges of the stock-sheet. In order to satisfy the guillotine cutting constraint using these approaches, when the pieces are non-rectangular, practitioners implement a two stage approach. First, pieces are enclosed within rectangle shapes and then the rectangles are packed. Clearly, imposing this condition is likely to lead to additional waste. This paper aims to generate guillotine-cutting layouts of irregular shapes using a number of strategies. The investigation compares three two-stage approaches: one approximates pieces by rectangles, the other two approximate pairs of pieces by rectangles using a cluster heuristic or phi-functions for optimal clustering. All three approaches use a competitive algorithm for rectangle bin packing with guillotine constraints. Further, we design and implement a one-stage approach using an adaptive forest search algorithm. Experimental results show the one-stage strategy produces good solutions in less time over the two-stage approach.
-  </p>
-</details>
-
-<details>
-  <summary>
-    <b>A hierarchical hyper-heuristic for the bin packing problem</b> &emsp;
-    <a href="https://link.springer.com/article/10.1007/s00500-022-07118-4">  Guerriero, Saccomanno - (2023) </a>
-  </summary>
-  <p align=justify>
-    This paper addresses the two-dimensional irregular bin packing problem, whose main aim is to allocate a given set of irregular pieces to larger rectangular containers (bins), while minimizing the number of bins required to contain all pieces. To solve the problem under study a dynamic hierarchical hyper-heuristic approach is proposed. The main idea of the hyper-heuristics is to search the space of low-level heuristics for solving computationally difficult problems. The proposed approach is “dynamic” since the low-level heuristic to be executed is chosen on the basis of the main characteristics of the instance to be solved. The term “hierarchical” is used to indicate the fact that the main hyper-heuristic can execute either simple heuristics or can run in a “recursive fashion” a hyper-heuristic. The developed solution strategy is evaluated empirically by performing extensive experiments on irregular packing benchmark instances. A comparison with the state-of-the-art approaches is also carried out. The computational results are very encouraging. 
   </p>
 </details>
 
@@ -700,6 +663,48 @@ model and provide the optimal solution for up to ten instances not proved in the
   </summary>
   <p align=justify>
     The irregular packing problem involves arranging all the irregular pieces on a plate with the objective of maximizing the use of material. In this article, the layout is formed by the ordered sequence of the irregular pieces which is obtained by a hybrid search algorithm and where the order is decoded by a proposed placement principle. First, a novel no-fit-polygon (NFP) generator is introduced. Then, a placement principle is presented with the new NFP generator. Finally, a search algorithm hybridized with beam search (BS) and tabu search (TS) is proposed to search over the sequence. The numerical experiments with many benchmark problems show that the hybrid algorithm is an applicative and effective approach for solving the irregular packing problem. The hybrid algorithm can produce competitive solutions in less time than many other typical algorithms.
+  </p>
+</details>
+
+
+<details>
+  <summary>
+    <b>GA and GWO algorithm for the special bin packing problem encountered in field of aircraft arrangement</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S1568494621009716">  Luo, Rao, Peng - (2022) </a>
+  </summary>
+  <p align=justify>
+    This paper addresses a special case of irregular bin packing problem which the irregular pieces with free rotation have to fill a large irregular stock sheet with defective regions while satisfying the special boundary constraint, i.e., the piece can protrude from the sheet so long as the key points in the piece’s interior lie within the container. The objective of this problem is to maximize the number of filled pieces. To our best knowledge, the piece must be placed completely inside the sheet for all packing problem tackled by published literature. Thus, existing approaches are not good solutions to this special packing problem. To achieve the goal of automated arrangement of pieces and maximize the space utilization, the genetic algorithm and grey wolf optimization algorithm are designed to solve it. The genetic algorithm adopts the elitism strategy for maintaining the portion of the best chromosomes. A new method of updating the main controlling parameter is applied for reinforcing the exploration ability of the grey wolf optimization. These two algorithms use a vector of pieces as the solution representation, and a novel heuristic algorithm decodes it to produce a layout. The proposed heuristic algorithm divides the process of packing into two stages with the objective of satisfying constraints and achieving good space utilization of sheet. Computational experiments show that the presented methods can solve this new kind of the packing problem very well.
+  </p>
+</details>
+
+
+<details>
+  <summary>
+    <b>An iteratively doubling local search for the two-dimensional irregular bin packing problem with limited rotations</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0305054821002847">  Zhang et. al. - (2022) </a>
+  </summary>
+  <p align=justify>
+    This paper proposes an iteratively doubling local search approach for the two-dimensional irregular bin packing problem (2DIRBPP) with limited rotations, whose objective is to pack a given set of irregular pieces into the minimum number of rectangular bins. The allowable angles of each piece are limited. To solve this problem, a waste least first decreasing strategy is introduced to assign the piece to the bins. A simple greedy local search approach by moving the pieces from one bin to another is utilized to improve the solution. We adapt an overlap minimization approach to solving the one bin placement problem. The classical bottom-left method is utilized to generate the initial position for each piece, and the random local search by exchanging the positions of two pieces is used to minimize the overlap. Moreover, a novel warm start and an iteratively doubling search strategy are proposed to speed up the search process. The standard benchmark results show that our approach improves the results for most of the instances in the literature.
+  </p>
+</details>
+
+<details>
+  <summary>
+    <b>A hierarchical hyper-heuristic for the bin packing problem</b> &emsp;
+    <a href="https://link.springer.com/article/10.1007/s00500-022-07118-4">  Guerriero, Saccomanno - (2023) </a>
+  </summary>
+  <p align=justify>
+    This paper addresses the two-dimensional irregular bin packing problem, whose main aim is to allocate a given set of irregular pieces to larger rectangular containers (bins), while minimizing the number of bins required to contain all pieces. To solve the problem under study a dynamic hierarchical hyper-heuristic approach is proposed. The main idea of the hyper-heuristics is to search the space of low-level heuristics for solving computationally difficult problems. The proposed approach is “dynamic” since the low-level heuristic to be executed is chosen on the basis of the main characteristics of the instance to be solved. The term “hierarchical” is used to indicate the fact that the main hyper-heuristic can execute either simple heuristics or can run in a “recursive fashion” a hyper-heuristic. The developed solution strategy is evaluated empirically by performing extensive experiments on irregular packing benchmark instances. A comparison with the state-of-the-art approaches is also carried out. The computational results are very encouraging. 
+  </p>
+</details>
+
+<details>
+  <summary>
+    <b>An iteratively doubling binary search for the two-dimensional irregular multiple-size bin packing problem raised in the steel industry</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0305054823003404"> Yao et. al. (2024)  </a>
+  </summary>
+  <p align=justify>
+    This paper examines the two-dimensional irregular multiple-size bin packing problem, where the goal is to pack all the given irregular pieces into bins of various sizes such that the total area of the used bins is minimized. Meanwhile, the irregular pieces include holes, and the bins can be irregular, also. This problem is raised in the steel industry considering the reuse of leftover material. An iteratively doubling binary search is proposed to solve this problem. Moreover, a binary search strategy is introduced to search the bin combination with minimum area, and an iteratively doubling strategy is utilized to control the search effort on each bin combination. Once the bins are identified, a first-fit bottom-left method is utilized to generate the initial position for each piece. An overlap minimization approach, which includes a local search by exchanging the positions of two pieces, is adapted to minimize the overlap in the initial solution. Experiment results on existing instances show that our approach could find a better solution than existing methods. Several instances representing different application scenarios are generated, and the results show our approach’s effectiveness and generality.
   </p>
 </details>
 
