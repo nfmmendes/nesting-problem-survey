@@ -40,7 +40,14 @@ researchers in the area to select the most appropriate methodology for their nee
 </details>
 
 ## Surveys
-[Leao, et. al. (2020)](https://www.sciencedirect.com/science/article/abs/pii/S0377221719303820) 
+
+<details>
+  <summary>
+    <b>Irregular packing problems: A review of mathematical models </b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221719303820">Leao, et. al. (2020)</a>
+  </summary>
+  Irregular packing problems (also known as nesting problems) belong to the more general class of cutting and packing problems and consist of allocating a set of irregular and regular pieces to larger rectangular or irregular containers, while minimizing the waste of material or space. These problems combine the combinatorial hardness of cutting and packing problems with the computational difficulty of enforcing the geometric non-overlap and containment constraints. Unsurprisingly, nesting problems have been addressed, both in the scientific literature and in real-world applications, by means of heuristic and metaheuristic techniques. However, more recently a variety of mathematical models has been proposed for nesting problems. These models can be used either to provide optimal solutions for nesting problems or as the basis of heuristic approaches based on them (e.g. matheuristics). In both cases, better solutions are sought, with the natural economic and environmental positive impact. Different modeling options are proposed in the literature. We review these mathematical models under a common notation framework, allowing differences and similarities among them to be highlighted. Some insights on weaknesses and strengths are also provided. By building this structured review of mathematical models for nesting problems, research opportunities in the field are proposed.
+</details>
 
 ## Nesting problem
 
