@@ -289,10 +289,21 @@ The performance of the CP model for the strip packing problem with the global co
 <details>
   <summary>
     <b>A biased random-key genetic algorithm using dotted board model for solving two-dimensional irregular strip packing problems</b> &emsp;
-    <a href="https://ieeexplore.ieee.org/abstract/document/9185794">  Amaro Junior, et al - (2020) </a>
+    <a href="https://ieeexplore.ieee.org/abstract/document/9185794">  Amaro Junior et al - (2020) </a>
   </summary>
   <p align=justify>
     The irregular strip packing problem (ISPP) is a combinatorial optimisation problem that has applicability in several industrial processes since it aims for the efficient use of material. Most of the techniques reported in the literature for solving the ISPP employ metaheuristics as they can cope with complex requirements that prevent the use of exact model formulations. This paper presents a biased random-key genetic algorithm (BRKGA) that uses the dotted board model to compute the fitnesses of candidate solutions aiming for the minimisation of the height of the large object. The algorithm allows the pieces to rotate in order to achieve better layouts. Computational experiments using instances from the literature were conducted to demonstrate the efficiency of the proposed method, with promising results.
+  </p>
+</details>
+
+
+<details>
+  <summary>
+    <b>A Genetic Algorithm for the Nesting Problem With Continuous Rotations</b> &emsp;
+    <a href="https://ieeexplore.ieee.org/document/9504813">  Nunes, Moreira, Andretta - (2021) </a>
+  </summary>
+  <p align=justify>
+   The Nesting problem, or the irregular cutting and packing problem, aims to find the best position of irregular pieces within a board, minimizing the space used by them. The problem's relevance is that it is widely used in the furniture, textile, and footwear industries. We consider a two-dimensional scope with convex and non-convex parts, with continuous rotation. We implement a genetic algorithm that uses five positioning rules, five sorting rules, and two rotation rules to create individuals and populations. Two positioning rules outperformed the others, obtaining promising results compared with the literature.
   </p>
 </details>
 
