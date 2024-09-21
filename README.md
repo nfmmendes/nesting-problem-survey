@@ -349,6 +349,16 @@ The performance of the CP model for the strip packing problem with the global co
 
 <details>
   <summary>
+    <b>Repair Method and Muéganos Structure Applied to the Nesting Problem in Finite Materials</b> &emsp;
+    <a href="https://www.mdpi.com/2076-3417/13/18/10117"> Rodriguez, Cuevas, Esparza - (2023)  </a>
+  </summary>
+  <p align=justify>
+    During an optimization process which uses a metaheuristic strategy applied to the nesting problem, it is required to apply a repair method if the random solution contains overlapping items. In this paper, a repair method is proposed to avoid the overlap of pixels between items obtained by a randomly generated solution using metaheuristics. The proposed procedure runs through each one of the items. When it finds at least one overlapping pixel, it performs four moves: up, down, left, and right, and it is repeated until no more overlaps appear. In addition, a structure called muéganos is defined. It contains items that are nested more compactly to minimize waste. This structure allows the nesting of elements in a more efficient way. To complete the procedure, a sequential greedy algorithm (SGA) was implemented to nested the items in the available area of the material. A comparison was made between nesting without and with muéganos, obtaining better results using muéganos, with a material utilization of more than 70%. From the experimental results, it was obtained that the solutions are improved by more than 1% through our proposed method, which is competitive when compared to other methods proposed in the literature.
+  </p>
+</details>
+
+<details>
+  <summary>
     <b>Optimal decomposition approach for solving large nesting and scheduling problems of additive manufacturing systems</b> &emsp;
     <a href="https://www.sciencedirect.com/science/article/pii/S0377221724001784">  Nascimento, et al - (2024) </a>
   </summary>
