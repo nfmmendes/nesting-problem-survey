@@ -906,6 +906,16 @@ for Nesting Problems </b> &emsp;
   </p>
 </details>
 
+<details>
+  <summary>
+    <b>(Master thesis) Developing a plate nesting algorithm for a steel processing company</b> &emsp;
+    <a href="http://essay.utwente.nl/102916/"> Oosten (2024)  </a>
+  </summary>
+  <p align=justify>
+    This thesis addresses the two-dimensional irregular bin packing problem (2DIBPP), focusing on optimizing the layout of irregularly shaped metal parts on steel sheets, a process known as 2D/plate nesting. This optimization is crucial in manufacturing industries, where efficient material usage can significantly reduce costs and waste. Existing algorithms often fall short of the company's objectives and requirements, resulting in suboptimal outcomes and a reliance on manual adjustments. This research therefore aims to develop a plate nesting algorithm tailored to the specific needs of the steel processing company. The research involved designing a three-phase heuristic algorithm that strategically places parts on rectangular sheets, evaluates layout efficiency, and refines the arrangement to maximize sheet utilization and minimize scrap. The algorithm's performance was tested against existing methods, showing strong performance when placing irregular items on larger sheets, and effectively handling cases with a balance of large and small items. Ultimately, this work lays the groundwork for a nesting solution tailored to the specific needs of the steel construction industry, with the potential for future development and customization.
+  </p>
+</details>
+
 
 ## Auxiliar algorithms 
 ### Non-fit polygon generation
