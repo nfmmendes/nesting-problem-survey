@@ -490,6 +490,19 @@ obtained with other methodologies in the literature that use free rotations.
 
 <details>
   <summary>
+    <b>A Study in Pairwise Clustering for Bi-dimensional Irregular Strip Packing Using the Dotted Board Model</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/pii/S2405896318314216"> Sato, et. al. - (2018) </a>
+  </summary>
+  <p align=justify>
+    The nesting problem is commonly encountered in sheet metal, clothing and shoe-making industries. The nesting problem is a combinatorial optimization problem in which a given set of irregular polygons is required to be placed on a rectangular sheet. The objective is to minimize the length of the sheet while having all polygons inside the sheet without overlap. In this study, a methodology that hybridizes cuckoo search and guided local search optimization techniques is proposed.
+  </p>
+  <p align=justify>
+To reduce the complexity of the nesting problem, pairwise clustering is introduced to group congruent polygons together in pairs. Pairwise clustering is done automatically to discover matched features among multiple present polygons. Computational experiments show that the implementation is robust and also reasonably fast. The proposed approach provides significantly better results than the previous state of the art on a wide range of benchmark data instances.
+  </p>
+</details>
+
+<details>
+  <summary>
     <b>Raster penetration map applied to the irregular packing problem</b> &emsp;
     <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221719304837"> Sato, et. al. - (2019) </a>
   </summary>
@@ -566,6 +579,17 @@ model and provide the optimal solution for up to ten instances not proved in the
     We consider the irregular strip packing problem of rasterized shapes, where a given set of pieces of irregular shapes represented in pixels should be placed into a rectangular container without overlap. The rasterized shapes provide simple procedures of the intersection test without any exceptional handling due to geometric issues, while they often require much memory and computational effort in high-resolution. To reduce the complexity of rasterized shapes, we propose a pair of scanlines representation called the double scanline representation that merges consecutive pixels in each row and column into strips with unit width, respectively. Based on this, we develop coordinate descent heuristics for the raster model that repeat a line search in the horizontal and vertical directions alternately, where we also introduce a corner detection technique used in computer vision to reduce the search space. Computational results for test instances show that the proposed algorithm obtains sufficiently dense layouts of rasterized shapes in high-resolution within a reasonable computation time.
   </p>
 </details>
+
+<details>
+  <summary>
+    <b>A new mixed-integer programming model for irregular strip packing based on vertical slices with a reproducible survey</b> &emsp;
+    <a href="https://arxiv.org/abs/2206.00032"> Lastra-Diaz, Ortuño - (2022) </a>
+  </summary>
+  <p align=justify>
+    The irregular strip-packing problem, also known as nesting or marker making, is defined as the automatic computation of a non-overlapping placement of a set of non-convex polygons onto a rectangular strip of fixed width and unbounded length, such that the strip length is minimized. Nesting methods based on heuristics are a mature technology, and currently, the only practical solution to this problem. However, recent performance gains of the Mixed-Integer Programming (MIP) solvers, together with the known limitations of the heuristics methods, have encouraged the exploration of exact optimization models for nesting during the last decade. Despite the research effort, the current family of exact MIP models for nesting cannot efficiently solve both large problem instances and instances containing polygons with complex geometries. In order to improve the efficiency of the current MIP models, this work introduces a new family of continuous MIP models based on a novel formulation of the NoFit-Polygon Covering Model (NFP-CM), called NFP-CM based on Vertical Slices (NFP-CM-VS). Our new family of MIP models is based on a new convex decomposition of the feasible space of relative placements between pieces into vertical slices, together with a new family of valid inequalities, symmetry breakings, and variable eliminations derived from the former convex decomposition. Our experiments show that our new NFP-CM-VS models outperform the current state-of-the-art MIP models. Finally, we provide a detailed reproducibility protocol and dataset based on our Java software library as supplementary material to allow the exact replication of our models, experiments, and results. 
+  </p>
+</details>
+
 
 <details>
   <summary>
