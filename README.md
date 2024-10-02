@@ -590,6 +590,15 @@ model and provide the optimal solution for up to ten instances not proved in the
   </p>
 </details>
 
+<details>
+  <summary>
+    <b>A biobjective matheuristic for integrated solution of the irregular strip packing and cutting path determination problems </b> &emsp;
+    <a href="https://www.scielo.br/j/pope/a/HC4hSckvFZVqhYDLF9Btncz/?lang=en#"> Oliveira et. al. - (2023) </a>
+  </summary>
+  <p align=justify>
+    Irregular strip packing problems are present in a wide variety of industrial sectors, such as the garment, footwear, furniture and metal industry. The goal is to find a layout in which an object will be cut into small pieces with minimum raw-material waste. Once a layout is obtained, it is necessary to determine the path that the cutting tool has to follow to cut the pieces from the layout. In the latter, the goal is to minimize the cutting distance (or time). Although industries frequently use this solution sequence, the trade-off between the packing and the cutting path problems can significantly impact the production cost and productivity. A layout with minimum raw-material waste, obtained through the packing problem resolution, can imply a longer cutting path compared to another layout with more material waste but a shorter cutting path, obtained through an integrated strategy. Layouts with shorter cutting path are worthy of consideration because they may improve the cutting process productivity. In this paper, both problems are solved together using a biobjective matheuristic based on the Biased Random-Key Genetic Algorithm. Our approach uses this algorithm to select a subset of the no-fit polygons edges to feed the mathematical model, which will compute the layout waste and cutting path length. Solving both strip packing and cutting path problems simultaneously allows the decision-maker to analyze the compromise between the material waste and the cutting path distance. As expected, the computational results showed the trade-off’s relevance between these problems and presented a set of solutions for each instance solved.
+  </p>
+</details>
 
 <details>
   <summary>
