@@ -34,6 +34,8 @@ We test our algorithms on three sets of test problem instances. In order to vali
 <li><a href="https://github.com/nfmmendes/nesting-problem-survey#auxiliar-algorithms"> Auxiliar algorithms </a></li>
 </ul>
 
+<img src="word-cloud.png" align="center"></img>
+
 ## Scientific Tutorial 
 
 <details>
