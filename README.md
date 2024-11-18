@@ -672,7 +672,6 @@ model and provide the optimal solution for up to ten instances not proved in the
 
 ## Irregular 2D Bin Packing 
 
-
 <details>
   <summary>
     <b>Solving an optimization packing problem of circles and non-convex polygons with rotations into a multiply connected region</b> &emsp;
@@ -734,6 +733,18 @@ model and provide the optimal solution for up to ten instances not proved in the
     This paper addresses the two-dimensional irregular packing problem, also known as the nesting problem. This is a subset of cutting and packing problems of renowned practical and theoretical relevance. A mixed integer-linear programming formulation is proposed to optimize the packing of particular polygonal shapes, convex forms with 3–8 sides, since their opposite sides are parallel. The model can be used to pack enclosures of general irregular shapes, generating upper bounds to the optimal solutions. The model was tested with 270 mass generated instances of small dimensions.
   </p>
 </details>
+
+
+<details>
+  <summary>
+    <b>Matheuristics for the irregular bin packing problem with free rotations</b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221716307950"> Martinez-Sykora et al. (2017) </a>
+  </summary>
+  <p align=justify>
+   We present a number of variants of a constructive algorithm able to solve a wide variety of variants of the Two-Dimensional Irregular Bin Packing Problem (2DIBPP). The aim of the 2DIBPP is to pack a set of irregular pieces, which may have concavities, into stock sheets (bins) with fixed dimensions in such a way that the utilization is maximized. This problem is inspired by a real application from a ceramic company in Spain. In addition, this problem arises in other industries such as the garment industry or ship building. The constructive procedure presented in this paper allows both free orientation for the pieces, as in the case of the ceramic industry, or a finite set of orientations as in the case of the garment industry. We explicitly model the assignment of pieces to bins and compare with the more common strategy of packing bins sequentially. There are very few papers in the literature that address the bin packing problem with irregular pieces and to our knowledge this is the first to additionally consider free rotation of pieces with bin packing. We propose several Integer Programing models to determine the association between pieces and bins and then we use a Mixed Integer Programing model for placing the pieces into the bins. The computational results show that the algorithm obtains high quality results in sets of instances with different properties. We have used both industry data and the available data in the literature of 2D irregular strip packing and bin packing problems.
+  </p>
+</details>
+
 
 <details>
   <summary>
