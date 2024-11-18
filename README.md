@@ -101,6 +101,7 @@ researchers in the area to select the most appropriate methodology for their nee
   This paper proposes a methodology that integrates in-house placement heuristics with genetic algorithms to solve the nesting problems of shoe making. The problems are classified as placing a set of irregular patterns on a regular area and limited to at most two different types of patterns on the area. Because of the intractability of the nesting problem, our objective is to utilize genetic algorithms’ fast convergence and solution quality to improve material utilization and reduce the calculation time of the pattern. Using the real-life data of two international brands of athletic shoes, the empirical results show that our proposed methodology can reduce average material requirements by 2.64% and average nesting time by 69.15% compared to those of current in-house software. The reduction of materials is becoming more important given that the industry is facing continuingly declining profit margins.
   </p>
 </details>
+
 <details>
   <summary>
     <b>Irregular Packing Using the Line and Arc No-Fit Polygon</b> &emsp;
@@ -109,6 +110,16 @@ researchers in the area to select the most appropriate methodology for their nee
   </summary>
   <p align=justify>
   The no-fit polygon is a geometric construct that can offer faster and more efficient handling of geometry between pairs of shapes than traditional line-by-line intersection. The detection of intersections is a critical operation within the irregular two-dimensional stock-cutting problem (also known as “nesting”), which aims to place shapes onto sheets of material so that the material is utilised as efficiently as possible and the waste (or trim loss) is reduced. The problem forms an important process within many real-world manufacturing industries such as metalworking, automotive production, aerospace, clothing and conservatory manufacture, and others. If manufacturers can reduce their costs by utilising raw materials more effectively, this can directly translate into increased profit margins or greater competitiveness within the marketplace. Moreover, there are significant environmental benefits to be gained. Several methods have been proposed to calculate no-fit polygons, but most, if not all, can only operate on geometry that consists of line segments. This paper extends the orbital sliding method of calculating no-fit polygons to enable it to handle arcs and then shows the resultant no-fit polygons being utilised successfully on the two-dimensional irregular packing problem. As far as the authors are aware, this is the first time that a no-fit polygon algorithm has been able to handle arcs robustly without decomposing to their line approximations. The modification of the authors' previously published packing algorithm to utilise the proposed no-fit polygon approach yields solutions of excellent quality (including several best-known) on well-established literature benchmark problems after only a few minutes. The authors believe that the success of the packing strategy and the line and arc no-fit polygon algorithm make this approach a serious candidate for use in real-world production environments.
+    </p>
+</details>
+
+<details>
+  <summary>
+    <b>Computer System for Making Efficiency Analysis of Meta-heuristic Algorithms to Solving Nesting Problem</b> &emsp;
+    <a href="https://link.springer.com/chapter/10.1007/978-3-642-12101-2_24">  Bogalinski, Koszalka, Pozniak-Koszalka, Kasprzak - (2010) </a>
+  </summary>
+  <p align=justify>
+ The paper concerns the strip nesting problem. This kind of problems is NP-hard even fort rectangular shapes and plate with no rotation allowed. In this paper computer system for making efficiency comparison of heuristic algorithms is proposed. The evaluation of tabu search, ACO and simulated annealing algorithms with raster approach to the geometry of problem is described. The evaluation was made on the basis of the results of simulations made using the experimentation system designed and implemented by authors.
     </p>
 </details>
 
