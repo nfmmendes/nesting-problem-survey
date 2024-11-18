@@ -81,7 +81,7 @@ researchers in the area to select the most appropriate methodology for their nee
 <details>
   <summary>
     <b>Mixed-integer programming models for nesting problems </b> &emsp;
-    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221719303820">Fischetti, Luzzi (2009)</a>
+    <a href="https://link.springer.com/article/10.1007/s10732-008-9088-9">Fischetti, Luzzi (2009)</a>
   </summary>
   <p align=justify>
       Several industrial problems involve placing objects into a container without overlap, with the goal of minimizing a certain objective function. These problems arise in many industrial fields such as apparel manufacturing, sheet metal layout, shoe manufacturing, VLSI layout, furniture layout, etc., and are known by a variety of names: layout, packing, nesting, loading, placement, marker making, etc. When the 2-dimensional objects to be packed are non-rectangular the problem is known as the nesting problem. The nesting problem is strongly NP-hard. Furthermore, the geometrical aspects of this problem make it really hard to solve in practice.
