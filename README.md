@@ -66,7 +66,6 @@ researchers in the area to select the most appropriate methodology for their nee
 </details>
 
 ## Surveys
-
 <details>
   <summary>
     <b>Irregular packing problems: A review of mathematical models </b> &emsp;
@@ -78,6 +77,21 @@ researchers in the area to select the most appropriate methodology for their nee
 </details>
 
 ## Nesting problem
+
+<details>
+  <summary>
+    <b>Mixed-integer programming models for nesting problems </b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221719303820">Fischetti, Luzzi (2009)</a>
+  </summary>
+  <p align=justify>
+      Several industrial problems involve placing objects into a container without overlap, with the goal of minimizing a certain objective function. These problems arise in many industrial fields such as apparel manufacturing, sheet metal layout, shoe manufacturing, VLSI layout, furniture layout, etc., and are known by a variety of names: layout, packing, nesting, loading, placement, marker making, etc. When the 2-dimensional objects to be packed are non-rectangular the problem is known as the nesting problem. The nesting problem is strongly NP-hard. Furthermore, the geometrical aspects of this problem make it really hard to solve in practice.
+  </p>
+  <p align=justify>
+    In this paper we describe a Mixed-Integer Programming (MIP) model for the nesting problem based on an earlier proposal of Daniels, Li and Milenkovic, and analyze it computationally. We also introduce a new MIP model for a subproblem arising in the construction of nesting solutions, called the multiple containment problem, and show its potentials in finding improved solutions.
+    </p>
+  </p>
+</details>
+
 <details>
   <summary>
     <b>On genetic algorithms for shoe making nesting – A Taiwan case</b> &emsp;
