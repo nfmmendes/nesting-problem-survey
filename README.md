@@ -76,6 +76,16 @@ researchers in the area to select the most appropriate methodology for their nee
   </p>
 </details>
 
+<details>
+  <summary>
+    <b>The rectangular two-dimensional strip packing problem real-life practical constraints: A bibliometric overview </b> &emsp;
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0305054821002616">Neuenfeldt Júnior et al (2022)</a>
+  </summary>
+  <p align=justify>
+  Over the years, methods and algorithms have been extensively studied to solve variations of the rectangular two-dimensional strip packing problem (2D-SPP), in which small rectangles must be packed inside a larger object denominated as a strip, while minimizing the space necessary to pack all rectangles. In the rectangular 2D-SPP, constraints are used to restrict the packing process, satisfying physical and real-life practical conditions that can impact the material cutting. The objective of this paper is to present an extensive literature review covering scientific publications about the rectangular 2D-SPP constraints in order to provide a useful foundation to support new research works. A systematic literature review was conducted, and 223 articles were selected and analyzed. Real-life practical constraints concerning the rectangular 2D-SPP were classified into seven different groups. In addition, a bibliometric analysis of the rectangular 2D-SPP academic literature was developed. The most relevant authors, articles, and journals were discussed, and an analysis made concerning the basic constraints (orientation and guillotine cutting) and the main solving methods for the rectangular 2D-SPP. Overall, the present paper indicates opportunities to address real-life practical constraints.
+  </p>
+</details>
+
 ## Nesting problem
 
 <details>
