@@ -920,6 +920,16 @@ model and provide the optimal solution for up to ten instances not proved in the
 
 <details>
   <summary>
+    <b>Planning Irregular Object Packing via Hierarchical Reinforcement Learning</b> &emsp;
+    <a href="https://ieeexplore.ieee.org/abstract/document/9954127"> Huang et. al. -(2022) </a>
+  </summary>
+  <p align=justify>
+    Object packing by autonomous robots is an important challenge in warehouses and logistics industry. Most conventional data-driven packing planning approaches focus on regular cuboid packing, which are usually heuristic and limit the practical use in realistic applications with everyday objects. In this paper, we propose a deep hierarchical reinforcement learning approach to simultaneously plan packing sequence and placement for irregular object packing. Specifically, the top manager network infers packing sequence from six principal view heightmaps of all objects, and then the bottom worker network receives heightmaps of the next object to predict the placement position and orientation. The two networks are trained hierarchically in a self-supervised Q-Learning framework, where the rewards are provided by the packing results based on the top height, object volume and placement stability in the box. The framework repeats sequence and placement planning iteratively until all objects have been packed into the box or no space is remained for unpacked items. We compare our approach with existing robotic packing methods for irregular objects in a physics simulator. Experiments show that our approach can pack more objects with less time cost than the state-of-the-art packing methods of irregular objects. We also implement our packing plan with a robotic manipulator to show the generalization ability in the real world.
+  </p>
+</details>
+
+<details>
+  <summary>
     <b>A Hybrid Reinforcement Learning Algorithm for 2D Irregular Packing Problems </b> &emsp;
     <a href="https://www.mdpi.com/2227-7390/11/2/327"> Fang et. al. - (2023) </a>
   </summary>
