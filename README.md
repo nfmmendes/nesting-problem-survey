@@ -941,7 +941,7 @@ model and provide the optimal solution for up to ten instances not proved in the
 <details>
   <summary>
     <b>Planning Irregular Object Packing via Hierarchical Reinforcement Learning</b> &emsp;
-    <a href="https://ieeexplore.ieee.org/abstract/document/9954127"> Huang et. al. -(2022) </a>
+    <a href="https://ieeexplore.ieee.org/abstract/document/9954127"> Huang et. al. -(2023) </a>
   </summary>
   <p align=justify>
     Object packing by autonomous robots is an important challenge in warehouses and logistics industry. Most conventional data-driven packing planning approaches focus on regular cuboid packing, which are usually heuristic and limit the practical use in realistic applications with everyday objects. In this paper, we propose a deep hierarchical reinforcement learning approach to simultaneously plan packing sequence and placement for irregular object packing. Specifically, the top manager network infers packing sequence from six principal view heightmaps of all objects, and then the bottom worker network receives heightmaps of the next object to predict the placement position and orientation. The two networks are trained hierarchically in a self-supervised Q-Learning framework, where the rewards are provided by the packing results based on the top height, object volume and placement stability in the box. The framework repeats sequence and placement planning iteratively until all objects have been packed into the box or no space is remained for unpacked items. We compare our approach with existing robotic packing methods for irregular objects in a physics simulator. Experiments show that our approach can pack more objects with less time cost than the state-of-the-art packing methods of irregular objects. We also implement our packing plan with a robotic manipulator to show the generalization ability in the real world.
@@ -1056,5 +1056,16 @@ for Nesting Problems </b> &emsp;
   </summary>
   <p align=justify>
   This paper introduces an efficient and robust sliding algorithm for the creation of no-fit polygons. The improved algorithm can cope with complex cases and is given an implementation in detail. The proposed concept of a touching group can simplify the judging process when recognizing the potential translation vector for an orbital polygon. In addition, the generation of the no-fit polygon only involves three main steps based on the proposed concept. The proposed algorithm has a mechanism that searches other start positions to generate a complete no-fit polygon for handling complex cases. To improve the efficiency, many acceleration strategies have been proposed, such as point exclusion strategy and point inclusion test. The robust and efficient performance of the algorithm is tested by well-known benchmark instances and degenerate and complex cases, such as holes, interlocking concavities and jigsaw-type pieces. Experimental results show that the proposed algorithm can produce complete no-fit polygons for complex cases, and acceleration strategies can reduce the creation time of no-fit polygon on benchmark instances by more than sixteen percent on average.
+  </p>
+</details>
+
+
+<details>
+  <summary>
+    <b>A generalized collision algorithm for geometric graphics</b> &emsp;
+    <a href="https://link.springer.com/article/10.1007/s00500-022-06883-6"> Zheng et al - (2022) </a>
+  </summary>
+  <p align=justify>
+  The two-dimensional graphical nesting problem is widespread in industrial production and is an NP-complete problem. The core technology of various nesting methods is the graphical collision algorithm. In this paper, a general algorithm for geometric graphics is proposed. According to the geometrical characteristics of the packed parts, the idea of divide and conquer is adopted, and the corresponding collision strategies are designed, respectively. Two-point bidirectional collision calculation, aligned bidirectional collision and slipping calculation are proposed to determine the collision relationship between graphics. The interpolation strategy is used to reduce the computation of NFP (No-Fit-Polygon). The precise interpolation between graphics is achieved by first marking and positioning, and then sliding interpolation in both directions, which improves the interpolation efficiency. Finally, the results of the comparison test by several cases of different types show that the algorithm is effective, stable, reliable and adaptable.
   </p>
 </details>
