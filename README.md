@@ -386,6 +386,16 @@ The performance of the CP model for the strip packing problem with the global co
 
 <details>
   <summary>
+    <b>Optimizing Two-Dimensional Irregular Packing: A Hybrid Approach of Genetic Algorithm and Linear Programming</b> &emsp;
+    <a href="https://www.mdpi.com/2076-3417/13/22/12474"> Liu, et al. - (2023)  </a>
+  </summary>
+  <p align=justify>
+   The problem of two-dimensional irregular packing involves the arrangement of objects with diverse shapes and sizes within a given area. This challenge arises across various industrial sectors, where effective packing optimization can yield cost savings, enhanced productivity, and reduced material waste. Existing methods for addressing the two-dimensional irregular packing problem encounter several challenges, such as limited computing resources, a prolonged solving time, and the propensity to converge to local optima. To address this issue, this study proposes a hybrid algorithm called the GA-LP algorithm to optimize the two-dimensional irregular packing problem in the manufacturing industry. The algorithm combines the global search capability of a genetic algorithm with the precise solving characteristics of linear programming. Matheuristics merges the advantages of metaheuristics, such as genetic algorithms, and mathematical programming, such as linear programming. The algorithm employs the no-fit-polygon technique along with the bottom-left and lowest-gravity center mixing placement strategies to acquire an initial solution via the utilization of a genetic algorithm. The algorithm then optimizes the solution obtained by the genetic algorithm using linear programming to obtain the final packing result. Experimental results, drawn from a real case involving the European Special Interest Group on Cutting and Packing (ESICUP) demonstrate that the GA-LP algorithm outperforms two hybrid algorithms from the relevant literature. Compared with recent methods, this algorithm can increase the best and average utilization rates by up to 5.89% and 4.02%, respectively, with important implications for improving work quality in areas such as packing and cutting.
+  </p>
+</details>
+
+<details>
+  <summary>
     <b>Optimal decomposition approach for solving large nesting and scheduling problems of additive manufacturing systems</b> &emsp;
     <a href="https://www.sciencedirect.com/science/article/pii/S0377221724001784">  Nascimento, et al - (2024) </a>
   </summary>
