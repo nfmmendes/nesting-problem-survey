@@ -951,10 +951,20 @@ model and provide the optimal solution for up to ten instances not proved in the
 <details>
   <summary>
     <b>Learning Gradient Fields for Scalable and Generalizable Irregular Packing</b>
-    <a href="https://dl.acm.org/doi/abs/10.1145/3610548.3618235"> Xue, et. al - (2023)  </a>
+    <a href="https://dl.acm.org/doi/abs/10.1145/3610548.3618235"> Xue et al - (2023)  </a>
   </summary>
   <p align=justify>
     The packing problem, also known as cutting or nesting, has diverse applications in logistics, manufacturing, layout design, and atlas generation. It involves arranging irregularly shaped pieces to minimize waste while avoiding overlap. Recent advances in machine learning, particularly reinforcement learning, have shown promise in addressing the packing problem. In this work, we delve deeper into a novel machine learning-based approach that formulates the packing problem as conditional generative modeling. To tackle the challenges of irregular packing, including object validity constraints and collision avoidance, our method employs the score-based diffusion model to learn a series of gradient fields. These gradient fields encode the correlations between constraint satisfaction and the spatial relationships of polygons, learned from teacher examples. During the testing phase, packing solutions are generated using a coarse-to-fine refinement mechanism guided by the learned gradient fields. To enhance packing feasibility and optimality, we introduce two key architectural designs: multi-scale feature extraction and coarse-to-fine relation extraction. We conduct experiments on two typical industrial packing domains, considering translations only. Empirically, our approach demonstrates spatial utilization rates comparable to, or even surpassing, those achieved by the teacher algorithm responsible for training data generation. Additionally, it exhibits some level of generalization to shape variations. We are hopeful that this method could pave the way for new possibilities in solving the packing problem.
+  </p>
+</details>
+
+<details>
+  <summary>
+    <b>The 3D bin packing problem for multiple boxes and irregular items based on deep Q-network</b>
+    <a href="https://link.springer.com/article/10.1007/s10489-023-04604-6"> Liu et al. - (2023)  </a>
+  </summary>
+  <p align=justify>
+    Irregular packing in e-commerce warehouses is a special case of a three-dimensional box packing problem (3DBPP). It is necessary to select the type and quantity of boxes and determine the location and orientation of the items to maximize the use of the loading space. In this paper, a spatial particle model of the 3DBPP for multiple boxes and irregular items is constructed using the three-dimensional (3D) point cloud and granulation method. In the model, the 3D point cloud is used to describe the shapes of irregular items, and the granulation method is used for the transformation from sparse and uneven point clouds to spatial particle convex hulls. In addition, we designed an empirical simulation algorithm (ESA) based on the combination of expert rules extracted in practical packing activities and empirical simulation, and an intelligent algorithm for 3DBPPs with irregular items combined with the framework of the deep Q network (DQN) algorithm in deep reinforcement learning. An instance generator is proposed based on industry data to generate realistic projects with representative attributes for the above two algorithms, such as types of boxes, irregular items, 3D spatial plane convex hulls, and spatially granular data. The numerical results show that the ESA can quickly obtain a high-quality packing scheme, and the intelligent DQN packing algorithm in deep reinforcement learning can avoid the limitation of expert rules and achieve a better scheme with a certain time for the training process.
   </p>
 </details>
 
